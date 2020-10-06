@@ -1,15 +1,25 @@
 # THIS IS GENERAL DEVELOPMENT INFO
 
 - Brew: Mac specific open source software that handles packages that interact with the MacOs system
+
 - Terminal: Command Line Interface allows you to send commands to your system
+
 - Powershell: Default terminal for Windows
+
 - Bash: shell, or command language interpreter. Bash is a command processor that typically runs in a text window where the user types commands that cause actions.
+
 - Git Bash: proper term for Windows users for their terminal - it provides an emulation layer for a Git command line experience
+
 - Node.js: Run time environment for JavaScript. Node.js allows us to fun JavaScript files on our own devices
+
 - Git: distributed version-control system allows you to track changes in source code during software development
+
 - GitHub: allows you to share your code - versioning software. It keeps track of older versions of your applications
+
 - Npm: Node Package Manager installs packages associated with Node.js
+
 - JavaScript: programming language
+
 - Nano: Allows you to write javascript from the terminal
 
 # SOME COMMON CLI COMMANDS:
@@ -26,8 +36,9 @@
 - mv <file name to directory name>: move
 - clear: clears the CLI
 - node <JS filename>: run javascript file in node environment
+- . vs .. :
 
-# Shortcut on the CLI
+# SHORTCUTS ON THE CLI
 
 - ctrl -C: get our of node.js environment or kill a process
 - up arrow: get previous command
@@ -36,17 +47,19 @@
 
 # COMMON GIT COMMANDS
 
-- Git add . : add all changes to local device
-- Git commit -m 'commit message': commiting to your changes
-- Git push: pushes code up to GitHub
+- git init:
+- git add . : add all changes to local device
+- git commit -m 'commit message': commiting to your changes
+- git push: pushes code up to GitHub
+- git pull:
 
-# Variable naming conventions:
+# VARIABLE NAMING CONVENTIONS
 
 camelCase: thisIsCamelCase
 snake_case: this_is_snake_case
 PascalCase: ThisIsPascalCase
 
-# Directories and file naming conventions
+# DIRECTORIES AND FILE NAMING CONVENTIONS
 
 camelCase: thisIsCamelCase
 snake_case: this_is_snake_case
@@ -54,7 +67,7 @@ PascalCase: ThisIsPascalCase
 this.could.also.work
 this-could-also-work
 
-# Punctuation Names:
+# PUNCTUATION NAMES
 
 - dot: .
 - comma: ,
@@ -75,3 +88,22 @@ this-could-also-work
 - angle bracket: <>
 - tilde: ~
 - asterisk: \*
+
+# COMMON SHORTCUTS IN GENERAL
+
+- copy
+- paste
+- cut
+- undo
+- redo
+- screeenshot
+- VS Code exporer
+- terminal inside VS Code
+- navigating through your application
+- screenshot
+- move to beginning of line
+- move to end of line
+- skipping words
+- highlight multiple repetitive words
+- moving current line up and down
+- search
