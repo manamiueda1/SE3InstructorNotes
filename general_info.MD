@@ -36,7 +36,7 @@
 - mv <file name to directory name>: move
 - clear: clears the CLI
 - node <JS filename>: run javascript file in node environment
-- . vs .. :
+- . vs .. : current vs going back one
 
 # SHORTCUTS ON THE CLI
 
@@ -47,11 +47,11 @@
 
 # COMMON GIT COMMANDS
 
-- git init:
+- git init: initializes a new repository
 - git add . : add all changes to local device
 - git commit -m 'commit message': commiting to your changes
 - git push: pushes code up to GitHub
-- git pull:
+- git pull: pulling new code
 
 # VARIABLE NAMING CONVENTIONS
 
@@ -107,3 +107,4 @@ this-could-also-work
 - highlight multiple repetitive words
 - moving current line up and down
 - search
+- emoji: ctrl command space
