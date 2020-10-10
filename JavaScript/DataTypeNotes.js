@@ -6,20 +6,20 @@
 // Types of variables
 // var: global scope
 // let: accessible within the scope
-// const: accessible within he scope, cannot be reassigned
+// const: accessible within the scope, cannot be reassigned
 
-var anitria = "helloWorld";
-console.log("anitria", anitria);
+// var anitria = "helloWorld";
+// console.log("anitria", anitria);
 
-let x = 8;
-console.log("what is x?", x);
-x = 1;
-console.log("what is x now?", x);
+// let x = 8;
+// console.log("what is x?", x);
+// x = 1;
+// console.log("what is x now?", x);
 
-let y = "hi";
-console.log("y", y);
-y = "hello";
-console.log("what is y?", y);
+// let y = "hi";
+// console.log("y", y);
+// y = "hello";
+// console.log("what is y?", y);
 
 // The console.logs below will not run
 // const y = "hi";
@@ -42,7 +42,7 @@ console.log("what is y?", y);
 // string: is used to represent and manipulate a sequence of characters
 // number: Hold numeric values, can be integers, decimals, negatives, positives, and so on
 // boolean: have two values: true or false
-// Null: is "nothing". It is supposed to be something that doesn't exist.
+// Null: is "nothing". It is supposed to be something that doesn't exist. The lack of any value
 // undefined:a variable without a value, has the value undefined
 
 // what is non-primitive data type
@@ -51,9 +51,18 @@ console.log("what is y?", y);
 // Non-Primitive/Composite Data Types
 // Object {}: Object properties are written as name:value pairs, separated by commas.
 // arrays []: high-level, list-like objects
+// functions:
 
-// Undefined vs null vs not defined
+// Undefined vs null vs not defined/undeclared
+
+// undefined
+let string;
+console.log(string);
+
+let nothing = null;
+console.log(nothing);
+
+console.log(something);
 
 // Mutable vs non-mutable
-
-// Complex types
+// able to alter vs not able to alter
