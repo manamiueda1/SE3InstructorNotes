@@ -27,8 +27,12 @@
 // y = "hello";
 // console.log("what is y?", y);
 
+/* -------------------------------------------------------------------------- */
+
 // console.log()
 // is a function in JavaScript which is used to print any kind of variables defined before in it or to just print any message that needs to be displayed to the user.
+
+/* -------------------------------------------------------------------------- */
 
 // DATA TYPE NOTES
 
@@ -53,16 +57,20 @@
 // arrays []: high-level, list-like objects
 // functions:
 
+/* -------------------------------------------------------------------------- */
+
 // Undefined vs null vs not defined/undeclared
 
 // undefined
-let string;
-console.log(string);
+// let string;
+// console.log(string);
 
-let nothing = null;
-console.log(nothing);
+// null
+// let nothing = null;
+// console.log(nothing);
 
-console.log(something);
+// error: something is not defined
+// console.log(something);
 
-// Mutable vs non-mutable
-// able to alter vs not able to alter
+
+

@@ -1,6 +1,6 @@
-// STRINGS
+// STRING NOTES
 
-// Strings: a set of characters that is used to represent text and is surrouded by quotes , '', "", ``
+// String Definition: a set of characters that is used to represent text and is surrouded by quotes , '', "", ``
 // String is a primitive data type - they're immutable
 
 // single quote: ''
@@ -13,6 +13,8 @@
 
 // console.log(singleQuote, doubleQuote, backTicks);
 
+/* -------------------------------------------------------------------------- */
+
 // ADDING STRINGS TOGETHER EXAMPLES
 
 // let originalString = "Hello";
@@ -21,7 +23,7 @@
 // console.log(newString);
 // console.log(hello);
 
-// adding strings using "+"
+// ADING STRINGS USING "+"
 
 // console.log(
 //   "this new string is " +
@@ -31,14 +33,19 @@
 //     originalString
 // );
 
-// adding strings using template literal
-// We can have JS inside the string by using this syntax `${JAVASCRIPT HERE}`
+// ADDING STRINGS USING TEMPLATE LITERAL
+// We can have JS variable inside the string by using this syntax `${JAVASCRIPT HERE}`
 
 // console.log(
 //   `this new string is ${newString} it is h-llo!! this is hello now ${newVariable}`
 // );
 
-// dynamic example
+/* -------------------------------------------------------------------------- */
+
+// DYNAMIC SOLUTION VS NON-DYNAMIC SOLUTION
+
+// DYNAMIC SOLUTION
+// This solution works with every name in the array
 // let array = [
 //   "anitria",
 //   "chelsea",
@@ -54,17 +61,15 @@
 //   console.log(`${student} is a nebula student`);
 // }
 
-// non dynamic example
+// NON-DYNAMIC
+// This solution only works with one variable 
 // let notDynamic = "anitria";
 
 // console.log(notDynamic + " is a nebula student");
 
-// let obj = { pair1: 1, pair2: 2 };
-// console.log(obj);
-// delete obj.pair1;
-// console.log(obj);
+/* -------------------------------------------------------------------------- */
 
-// special characters
+// SPECIAL CHARACTERS
 
 // let quote = 'We are the so-called "Vikings" from the north.';
 // let backslash = "\\";
@@ -85,14 +90,29 @@
 // console.log(anotherQuote);
 // console.log(quote, backslash, newLine);
 
-// let example1 = "nebula";
-// console.log(example1);
-// console.log(example1[0]);
-// console.log(example1[1]);
-// console.log(example1[2]);
-// console.log(example1[3]);
-// console.log(example1[4]);
-// console.log(example1[5]);
+/* -------------------------------------------------------------------------- */
+
+// ACCESSING INDICES USING BRACKET NOTATION
+// When counting indexes, we start at index 0
+
+// let school = "nebula";
+// console.log(school);
+
+// school at index 0 evaluates to 'n'
+// console.log(school[0]);
+// school at index 1 evaluates to 'e'
+// console.log(school[1]);
+// school at index 2 evaluates to 'b'
+// console.log(school[2]);
+// school at index 3 evaluates to 'u'
+// console.log(school[3]);
+// school at index 4 evaluates to 'l'
+// console.log(school[4]);
+// school at index 5 evaluates to 'a'
+// console.log(school[5]);
+
+
+// EX: log your initials using template literal and '+'
 
 // let myName = "Manami Ueda";
 // console.log(myName[0]);
@@ -103,7 +123,11 @@
 // let secondLetter = myName[7];
 // console.log(firstLetter + secondLetter);
 
-// console.log(myName[10]);
+// console.log(myName[10]); // 'a'
+
+/* -------------------------------------------------------------------------- */
+
+// .length METHOD
 
 // let name = "manami";
 // console.log(name.length); //6
@@ -132,8 +156,10 @@
 
 // console.log(sentence[sentence.length - 1]);
 
-let welcome = "Hi Friend welcome to nebula ACADEMY";
+// let welcome = "Hi Friend welcome to nebula ACADEMY";
 // console.log(welcome[welcome.length - 1]);
+
+/* -------------------------------------------------------------------------- */
 
 // .charAt(i)
 
@@ -145,12 +171,19 @@ let welcome = "Hi Friend welcome to nebula ACADEMY";
 // console.log(welcome.toUpperCase());
 // console.log(welcome.toLowerCase());
 
-// .replace
+/* -------------------------------------------------------------------------- */
 
-console.log(welcome.replace("Hi", "hello"));
+// .replace()
 
-let name = "manami";
-console.log(name.replace(/a/g, "-"));
+// console.log(welcome.replace("Hi", "hello"));
 
-// .split
-// .slice
+// let name = "manami";
+// console.log(name.replace(/a/g, "-"));
+
+// .split()
+// .slice()
+// .substr()
+// .indexOf()
+// .concat() 
+// parameters vs arguments 
+
