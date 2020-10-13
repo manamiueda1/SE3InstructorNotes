@@ -92,8 +92,9 @@
 
 /* -------------------------------------------------------------------------- */
 
-// ACCESSING INDICES USING BRACKET NOTATION
-// When counting indexes, we start at index 0
+// ACCESSING INDICES USING BRACKET NOTATION: str[i]
+// Will return a character based on the given index. 
+// Note: if the index is larger than the last character index then we return an empty string: ''
 
 // let school = "nebula";
 // console.log(school);
@@ -127,7 +128,7 @@
 
 /* -------------------------------------------------------------------------- */
 
-// .length METHOD
+// .length METHOD definition: Returns the length of a string
 
 // let name = "manami";
 // console.log(name.length); //6
@@ -161,11 +162,17 @@
 
 /* -------------------------------------------------------------------------- */
 
-// .charAt(i)
+// .charAt(i) Definition: Will return a character based on it's index
+
 
 // console.log(welcome.charAt(10)); //w
 // console.log(welcome.charAt(100)); // empty
 // console.log(welcome.charAt(6));
+
+/* -------------------------------------------------------------------------- */
+
+// .toUpperCase() Will convert any string to all uppercase
+// .toLowerCase() Will convert any string to all lowercase
 
 // console.log(welcome);
 // console.log(welcome.toUpperCase());
@@ -173,12 +180,14 @@
 
 /* -------------------------------------------------------------------------- */
 
-// .replace()
+// .replace() Definition: replaces the first instance of a character
 
 // console.log(welcome.replace("Hi", "hello"));
 
 // let name = "manami";
 // console.log(name.replace(/a/g, "-"));
+
+/* -------------------------------------------------------------------------- */
 
 // .split()
 // .slice()
