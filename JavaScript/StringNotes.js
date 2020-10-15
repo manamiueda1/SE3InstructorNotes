@@ -162,8 +162,12 @@
 
 /* -------------------------------------------------------------------------- */
 
-// .charAt(i) Definition: Will return a character based on it's index
+// Parameters: variables listed as a part of the function definition
+// Arguments: values passed to the function when it is invoked.
 
+/* -------------------------------------------------------------------------- */
+
+// .charAt(i) Definition: Will return a character based on it's index
 
 // console.log(welcome.charAt(10)); //w
 // console.log(welcome.charAt(100)); // empty
@@ -180,19 +184,82 @@
 
 /* -------------------------------------------------------------------------- */
 
-// .replace() Definition: replaces the first instance of a character
+// .replace(regex substring, new substring) Definition: replaces the first instance of a character (regex)
 
-// console.log(welcome.replace("Hi", "hello"));
+// let replaceChar = 'we are replacing some characters'
+// console.log(replaceChar.replace("are", "r"));
+// console.log(replaceChar.replace("some", "sum"));
+// console.log(replaceChar.replace('a', '-'))
 
 // let name = "manami";
 // console.log(name.replace(/a/g, "-"));
 
 /* -------------------------------------------------------------------------- */
 
-// .split()
-// .slice()
-// .substr()
-// .indexOf()
-// .concat() 
-// parameters vs arguments 
+// .indexOf(searchValue) definition: returns the index of the value you pass into the method
+
+// let school = 'welcome to nebula academy'
+// console.log(school.indexOf('l')) //2
+// console.log(school.indexOf('z')) // -1
+// console.log(school.indexOf('j')) // -1
+// console.log(school.indexOf('nebula')) //11
+
+/* -------------------------------------------------------------------------- */
+
+// .includes(searchString) definition: determines whether one string may be found within another string, returning true or false as appropriate.
+
+// let socialMedia = 'Hello, welcome to facebook'
+// console.log(socialMedia.includes('l')) // true
+// console.log(socialMedia.includes('z')) // false
+
+/* -------------------------------------------------------------------------- */
+
+// .split() definition: divides a String into an ordered list of substrings
+
+// let cars = 'nissan, volvo, bmw, porsche, toyota, mercedes'
+
+// console.log(cars.split(', '))
+
+// let fruits = 'apple banana orange grapefruit grape'
+// console.log(fruits.split(' '))
+
+let name = 'manami ueda'
+let fullName = name.split(' ')
+console.log(fullName) // [ 'manami', 'ueda' ]
+let firstName = fullName[0] // manami
+let lastName = fullName[1] // ueda
+console.log(firstName[0])
+console.log(lastName[0])
+console.log(firstName)
+console.log(lastName)
+
+/* -------------------------------------------------------------------------- */
+
+// .slice(startingIndex, endingIndex) definition:extracts a section of a string and returns it as a new string, without modifying the original string.
+
+// let loveJavaScript = 'javascript makes me happy.'
+// let js = loveJavaScript.slice(0, 10)
+// console.log(js) // javascript
+// console.log(`${js} makes me smart`) //javascript makes me smart
+// console.log(loveJavaScript.slice(0, -1))
+// console.log(loveJavaScript.slice(11,16))
+// console.log(loveJavaScript) //javascript makes me happy  
+
+/* -------------------------------------------------------------------------- */
+
+// .substr(startingIndex, characterCount) definition:returns a portion of the string, starting at the specified index and extending for a given number of characters afterwards.
+
+// let school = 'nebula academy wednesday class'
+// console.log(school.substr(0, 6))
+// console.log(school.substr(7, 7))
+// console.log(school.substr(15, 9))
+// console.log(school.substr(25, 5))
+
+
+
+
+
+
+
+
 
