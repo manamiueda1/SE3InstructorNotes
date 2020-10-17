@@ -214,7 +214,7 @@
 
 /* -------------------------------------------------------------------------- */
 
-// .split() definition: divides a String into an ordered list of substrings
+// .split(separator) definition: divides a String into an ordered list of substrings
 
 // let cars = 'nissan, volvo, bmw, porsche, toyota, mercedes'
 
@@ -223,15 +223,15 @@
 // let fruits = 'apple banana orange grapefruit grape'
 // console.log(fruits.split(' '))
 
-let name = 'manami ueda'
-let fullName = name.split(' ')
-console.log(fullName) // [ 'manami', 'ueda' ]
-let firstName = fullName[0] // manami
-let lastName = fullName[1] // ueda
-console.log(firstName[0])
-console.log(lastName[0])
-console.log(firstName)
-console.log(lastName)
+// let name = 'manami ueda'
+// let fullName = name.split(' ')
+// console.log(fullName) // [ 'manami', 'ueda' ]
+// let firstName = fullName[0] // manami
+// let lastName = fullName[1] // ueda
+// console.log(firstName[0])
+// console.log(lastName[0])
+// console.log(firstName)
+// console.log(lastName)
 
 /* -------------------------------------------------------------------------- */
 
@@ -255,9 +255,10 @@ console.log(lastName)
 // console.log(school.substr(15, 9))
 // console.log(school.substr(25, 5))
 
+/* -------------------------------------------------------------------------- */
 
-
-
+// Number(string number) definition: trurns string of number in number 
+// console.log(Number('10')) //10
 
 
 
