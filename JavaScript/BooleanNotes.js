@@ -27,34 +27,64 @@
 
 // == loosely equal to
 
-console.log(10 == '10') //true
+// console.log(10 == '10') //true
 
 // === strictly equal to 
 
-console.log(10 === '10') //false 
-console.log(10 === 10) //true
+// console.log(10 === '10') //false 
+// console.log(10 === 10) //true
 
-let num = 9 
-console.log(num === 9) //true
-console.log(num == 9) //true
+// let num = 9 
+// console.log(num === 9) //true
+// console.log(num == 9) //true
 
+/* -------------------------------------------------------------------------- */
+
+// Bang operator (opposite/not)
 // != vs !==
 
-console.log(10 != '10') //false
+// console.log(10 != '10') //false
 
-console.log(10 !== '10') //true
-console.log(10 !== 10) //false
+// console.log(10 !== '10') //true
+// console.log(10 !== 10) //false
 
-console.log(num !== 9) //false 
-console.log(num != 9) //false 
+// console.log(num !== 9) //false 
+// console.log(num != 9) //false 
 
-let candy = false
-console.log(candy !== false) //false
-console.log(candy !== true) //true
+// let candy = false
+// console.log(candy !== false) //false
+// console.log(candy !== true) //true
 
-
+/* -------------------------------------------------------------------------- */
 
 // Logical Operators
-// &&
-// ||
-// !
+
+// &&: 'and' 
+
+// console.log(Boolean(0)) // false
+// console.log(Boolean(1)) // true
+// console.log(Boolean(''))  //false
+// console.log(Boolean('hi')) // true
+
+console.log(Boolean(1) && Boolean('hi')) // true
+console.log(Boolean(0) && Boolean('')) // false
+console.log(Boolean(1) && Boolean(0)) // false 
+console.log(Boolean('') && Boolean('hi')) // false 
+
+console.log(true && true) //true
+console.log(true && false) //false
+console.log(false && true) //false
+console.log(false && false) //false
+
+
+
+// ||: 'or'
+console.log(Boolean(1) || Boolean('hi')) //true
+console.log(Boolean(0) || Boolean('')) // false
+console.log(Boolean(1) || Boolean(0)) //true
+console.log(Boolean('') || Boolean('hi')) // true
+
+console.log(true || true) //true
+console.log(true || false) //true
+console.log(false || true) //true
+console.log(false || false) //false

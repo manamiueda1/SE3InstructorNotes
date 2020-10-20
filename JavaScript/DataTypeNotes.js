@@ -72,5 +72,11 @@
 // error: something is not defined
 // console.log(something);
 
+/* -------------------------------------------------------------------------- */
 
+// typeof 
 
+console.log(typeof 6) // 'number'
+console.log(typeof 'hi') // 'string' 
+console.log(typeof {string: 'hi'}) // 'object'
+console.log(typeof [1, 2, 3]) // 'object'

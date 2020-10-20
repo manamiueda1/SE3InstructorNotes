@@ -3,6 +3,8 @@
 // Number Definition:
 //  JS numbers are the same as numbers we traditionally use in math 
 
+/* -------------------------------------------------------------------------- */
+
 // Add
 // console.log(5+5)
 // Substract
@@ -17,13 +19,18 @@
 // console.log(7 >= 7) //true
 // console.log(8 <= 9 ) //true
 
+/* -------------------------------------------------------------------------- */
+
 // Modular % definition: operator (%) returns the division remainder
 
-// console.log(12 % 5)
-// console.log(15 % 3)
-// console.log(10 % 3)
+// console.log(12 % 5) // 2
+// console.log(15 % 3) // 0
+// console.log(10 % 3) // 1
 
-// Math methods 
+/* -------------------------------------------------------------------------- */
+
+// MATH METHODS
+
 // Math.sqrt() definition: Return the square root of a number
 
 // console.log(Math.sqrt(8))
@@ -51,7 +58,6 @@
 
 // let num = Math.floor(15/7)
 
-
 // console.log(15 % 7)
 // let remainder = 15 % 7
 
@@ -71,31 +77,32 @@
 // console.log(Math.max(7, 20, 4, 1, 25, 7, 3, 3.14, 24, -1, -100, -7))
 
 // Math.random()
-// console.log(Math.random()) //random numbers between 0-1 in decimals 
-// console.log(Math.random() * 100) // random numbers between 0-100 in decimals 
-// console.log(Math.floor(Math.random() * 100)) //random whole numbers between 0-100
+console.log(Math.random()) //random numbers between 0-1 in decimals 
+console.log(Math.random() * 100) // random numbers between 0-100 in decimals 
+console.log(Math.floor(Math.random() * 100)) //random whole numbers between 0-100
 
+/* -------------------------------------------------------------------------- */
 
 // Increasing and decreasing variables
 
-let i = 7
-console.log(i) //7
+// let i = 7
+// console.log(i) //7
 
-i = i + 1
-console.log(i) //8
+// i = i + 1
+// console.log(i) //8
 
-i += 1
-console.log(i) //9
+// i += 1
+// console.log(i) //9
 
-i++
-console.log(i) //10
+// i++
+// console.log(i) //10
 
-i = i - 1
-console.log(i) //9
+// i = i - 1
+// console.log(i) //9
 
-i -= 1
-console.log(i) //8
+// i -= 1
+// console.log(i) //8
 
-i--
-console.log(i) //7
+// i--
+// console.log(i) //7
 

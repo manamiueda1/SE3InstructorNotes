@@ -17,28 +17,28 @@
 
 // ADDING STRINGS TOGETHER EXAMPLES
 
-// let originalString = "Hello";
-// let newVariable = originalString;
-// let newString = originalString.replace("e", "-");
-// console.log(newString);
+let originalString = "Hello";
+let newVariable = originalString;
+let newString = originalString.replace("e", "-");
+console.log(newString);
 // console.log(hello);
 
 // ADING STRINGS USING "+"
 
-// console.log(
-//   "this new string is " +
-//     newString +
-//     " it is h-llo!! " +
-//     "this is helllllllllllllllllllllllo now " +
-//     originalString
-// );
+console.log(
+  "this new string is " +
+    newString +
+    " it is h-llo!! " +
+    "this is helllllllllllllllllllllllo now " +
+    originalString
+);
 
 // ADDING STRINGS USING TEMPLATE LITERAL
 // We can have JS variable inside the string by using this syntax `${JAVASCRIPT HERE}`
 
-// console.log(
-//   `this new string is ${newString} it is h-llo!! this is hello now ${newVariable}`
-// );
+console.log(
+  `this new string is ${newString} it is h-llo!! this is hello now ${newVariable}`
+);
 
 /* -------------------------------------------------------------------------- */
 
