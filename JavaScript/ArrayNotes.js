@@ -14,6 +14,7 @@
 let randomArray = [0, false, true, 8, 'hi', '', 700, 'hello']
 // console.log(randomArray)
 
+/* -------------------------------------------------------------------------- */
 
 // Indexing using bracket notation: array[i]
 // Definition: get specific elements from within an array by using bracket notation
@@ -25,14 +26,18 @@ let testScores = [100, 80, 56, 75, 68, 99, 90]
 // console.log(testScores[testScores.length - 1]) // 90
 // console.log(testScores[6])
 
+/* -------------------------------------------------------------------------- */
+
 // .length
 // console.log(testScores.length) // 7
+
+/* -------------------------------------------------------------------------- */
 
 // .indexOf()
 // console.log(testScores.indexOf(80)) // 1
 // console.log(testScores.indexOf(90)) // 6
 
-
+/* -------------------------------------------------------------------------- */
 
 // .pop() definition: removed the last element inside the array
 let scores = [100, 80, 56, 75, 68, 99, 90]
@@ -84,8 +89,6 @@ console.log(cars)
 
 // ARRAY METHODS
 
-// .push()
-// .pop()
 // .shift()
 // .unshift()
 // .join()
