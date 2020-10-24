@@ -6,7 +6,6 @@
 
 /* -------------------------------------------------------------------------- */
 
-
 // Array.isArray()
 // console.log(Array.isArray([1, 2, 3])) //true
 // console.log(Array.isArray(7)) //false 
@@ -119,6 +118,7 @@ console.log(socialMedia) // [ 'facebook', 'snapchat', 'instagram', 'linkedin', '
 socialMedia.splice(1, 0, 'tik tok') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'linkedin', 'myspace' ]
 socialMedia.splice(-2, 0, 'tik tok') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'tik tok', 'linkedin', 'myspace' ]
 console.log(socialMedia)
+socialMedia.splice(-2, 2, 'pinterest') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'tik tok']
 
 
 
@@ -140,9 +140,7 @@ console.log(socialMedia)
 
 
 
-// ARRAY METHODS
 
 
-// .splice()
 
 
