@@ -4,8 +4,45 @@
 // Note: A function can be called many times, each time with an output based on arguments that are passed in
 
 // Why even use a function?
+    // Reduces amount of code that is required
+        // This is helpful for a few reasons:
+            // Reduces potential for error
+            // Simplifies our programs 
+            // Gives potential for upgrades & changes 
+
+// Note: functions dont inherently write to the CLI, we still need to console.log the invocation of the function
+
+/* -------------------------------------------------------------------------- */
 
 // Syntax
+
+// Single line syntax (unusual):
+     // function name(parameters){return x}
+// Multi line syntax:
+     // function name(parameters){
+         // do something 
+         // return something
+    // }
+// Syntax for invocation with an argument
+    // name(arguments)
+
+/* -------------------------------------------------------------------------- */
+
+// PARAMETERS VS ARGUMENTS
+
+// Parameters:
+    // A function can require parameters
+    // A parameter is a named variable passed into a function. Parameter variables are used to import arguments into functions.
+    // The parameters are the values that are between the parenthesis when declaring the function
+    // They dont have their own value, they receieve their value from the arguments when the function was called
+
+// Arguments:
+    // If a function has parameters, it needs to take in arguments
+    // These arguments are passed in teh when the function is called/invoked
+
+/* -------------------------------------------------------------------------- */
+
+// TYPES OF FUNCTIONS
 
 // Basic function
 // function functionName (parameters){
@@ -24,6 +61,9 @@
 //     // block of code -> what the function does
 // }
 // arrowFunction(args)
+
+/* -------------------------------------------------------------------------- */
+// FUNCTION EXAMPLES
 
 // Function Goal: return the sum of two numbers 
 // adding -> name of the function
