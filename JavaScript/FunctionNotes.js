@@ -17,11 +17,12 @@
 // Syntax
 
 // Single line syntax (unusual):
-     // function name(parameters){return x}
+    //  function name(parameters){return x}
+
 // Multi line syntax:
-     // function name(parameters){
-         // do something 
-         // return something
+    //  function name(parameters){
+    //      do something 
+    //      return something
     // }
 // Syntax for invocation with an argument
     // name(arguments)
@@ -38,7 +39,7 @@
 
 // Arguments:
     // If a function has parameters, it needs to take in arguments
-    // These arguments are passed in teh when the function is called/invoked
+    // These arguments are passed in the funtion when the function is called/invoked
 
 /* -------------------------------------------------------------------------- */
 
@@ -46,7 +47,7 @@
 
 // Basic function
 // function functionName (parameters){
-//     //tell the function what to do
+//     // tell the function what to do
 // }
 // functionName(args)
 
@@ -74,11 +75,13 @@
 // the numbers 5 and 10 -> are the arguments 
 
 // function adding (num1, num2){
-//     return num1 + num2
+//     console.log(num1) 
+//     console.log(num2) 
+//     return num1 + num2 
 // }
 
-// console.log(adding(5, 10)) // 15
 // console.log(adding(100, 99)) //199
+// console.log(adding(5, 10)) // 15
 // console.log(adding(16, 1)) // 17
 // console.log(adding(7, 2)) // 9
 
@@ -89,10 +92,11 @@
 // return -> JS keyword used inside a funtion to return the evaluation of the function
 // welcome('Tefe') -> calling/invoking the welcome() function with the string 'Tefe'
 // 'Tefe' -> argument 
+
 // function welcome (name){
-//     // console.log(name)
 //     return `hi ${name}`
 // }
+
 // console.log(welcome('Tefe')) // hi Tefe
 // console.log(welcome('Jasmine')) // hi Jasmine
 // console.log(welcome('Eddy')) // hi Eddy
@@ -107,14 +111,17 @@ let cities = ['New York City', 'Amsterdam', 'Miami', 'Chicago', 'Madrid', 'Londo
 // favCities() -> the invovcation/calling of the favCities() function 
 
 function favCities (individualCity){
+    console.log(individualCity) 
  return `My favorite city is ${individualCity}`
 }
 console.log(favCities(cities[0])) // My favorite city is New York City
 console.log(favCities(cities[1])) // My favorite city is Amsterdam
-console.log(favCities(cities[2])) // My favorite city is Miami
-console.log(favCities(cities[3])) // My favorite city is Chicago
-console.log(favCities(cities[4])) // My favorite city is Madrid
-console.log(favCities(cities[5])) // My favorite city is London
+console.log(favCities('New York City 2'))
+
+// console.log(favCities(cities[2])) // My favorite city is Miami
+// console.log(favCities(cities[3])) // My favorite city is Chicago
+// console.log(favCities(cities[4])) // My favorite city is Madrid
+// console.log(favCities(cities[5])) // My favorite city is London
 
 
 // fourthCity -> name of the function
@@ -125,18 +132,18 @@ console.log(favCities(cities[5])) // My favorite city is London
 
 
 // Declaring the function
-function fourthCity(cityArray){
-    //  logging the array onto the terminal
-    console.log(cityArray)
-    //  returning the string 'the fourth city is Chicago'
-    return 'the fourth city is ' + cityArray[3];
-} 
-// invoking the function
-console.log(fourthCity(cities)) // the fourth city is Chicago
+// function fourthCity(cityArray){
+//     //  logging the array onto the terminal
+//     console.log(cityArray)
+//     //  returning the string 'the fourth city is Chicago'
+//     return 'the fourth city is ' + cityArray[3];
+// } 
+// // invoking the function
+// console.log(fourthCity(cities)) // the fourth city is Chicago
 
 
-let computers = ['Mac', 'Acer', 'Dell', 'ThinkPad', 'Lenovo', 'HP']
-let weather = ['sunny', 'rainy', 'cloudy', 'snowy']
+// let computers = ['Mac', 'Acer', 'Dell', 'ThinkPad', 'Lenovo', 'HP']
+// let weather = ['sunny', 'rainy', 'cloudy', 'snowy']
 // Function Goal: Remove the first element in and array
 // removeFirstElement -> function name 
 // cheese -> parameter
@@ -145,16 +152,16 @@ let weather = ['sunny', 'rainy', 'cloudy', 'snowy']
 // cities -> argument we are calling the removeFirstElement function with
 
 // declaring the funciton removeFirstElement the takes in a parameter cheese
-function removeFirstElement (cheese){
-    // block of code inside the removeFirstElement function that is removing the first element in the array
-    cheese.shift()
-    // returning the new array 
-    return cheese
-}
-// calling the removeFirstElement funciton with the argument cities
-console.log(removeFirstElement(cities)) // [ 'Amsterdam', 'Miami', 'Chicago', 'Madrid', 'London' ]
-console.log(removeFirstElement(computers)) // [ 'Acer', 'Dell', 'ThinkPad', 'Lenovo', 'HP' ]
-console.log(removeFirstElement(weather)) // [ 'rainy', 'cloudy', 'snowy' ]
+// function removeFirstElement (cheese){
+//     // block of code inside the removeFirstElement function that is removing the first element in the array
+//     cheese.shift()
+//     // returning the new array 
+//     return cheese
+// }
+// // calling the removeFirstElement funciton with the argument cities
+// console.log(removeFirstElement(cities)) // [ 'Amsterdam', 'Miami', 'Chicago', 'Madrid', 'London' ]
+// console.log(removeFirstElement(computers)) // [ 'Acer', 'Dell', 'ThinkPad', 'Lenovo', 'HP' ]
+// console.log(removeFirstElement(weather)) // [ 'rainy', 'cloudy', 'snowy' ]
 
 
 // Declare a funciton called myInitials. it takes in two parameters: your firstName and your lastName 
@@ -170,8 +177,6 @@ console.log(removeFirstElement(weather)) // [ 'rainy', 'cloudy', 'snowy' ]
 
 // Immediately Invoked Function Expression (IIFE)
 // Default arguments
-
-
 
 // scope 
 // global vs local 

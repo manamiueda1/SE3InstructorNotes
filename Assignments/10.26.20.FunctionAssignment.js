@@ -1,47 +1,47 @@
 //Problem 1 
 
 //Define a variable name and assign your name to it 
-let seef = "Tauseef";
-console.log(seef); // Tauseef
-let chels = 'Chelsea'
-let num = 8
+// let seef = "Tauseef";
+// console.log(seef); // Tauseef
+// let chels = 'Chelsea'
+// let num = 8
 
 
 //Using the variable name, create a function that returns your name 
-function nameFunction(cheese){
-    return cheese; //Tauseef
-}
-console.log(nameFunction(seef)); //Tauseef
-console.log(nameFunction(chels)); // Chelsea
-console.log(nameFunction(num)) //8
+// function nameFunction(cheese){
+//     return cheese; //Tauseef
+// }
+// console.log(nameFunction(seef)); //Tauseef
+// console.log(nameFunction(chels)); // Chelsea
+// console.log(nameFunction(num)) //8
 
-let name = 'Jasmine Dyson'
+// let name = 'Jasmine Dyson'
 
-function myName (fullName){
-    return fullName //'Jasmine Dyson'
-}
-console.log(myName(name)) 
+// function myName (fullName){
+//     return fullName //'Jasmine Dyson'
+// }
+// console.log(myName(name)) 
 
 //Problem 2 
 
 //Create a function that accepts 2 parameters, both of which are numbers, and returns the sum of those two numbers 
 
-function adding(num1, num2){
-    return num1 + num2
-}
-console.log(adding(4, 10)) //14 
+// function adding(num1, num2){
+//     return num1 + num2
+// }
+// console.log(adding(4, 10)) //14 
 
 //Problem 3 
 
 //Create a function that returns the type of any argument that is being called in the function 
 
 
-function namesRandom(names){
-    return typeof names
-}
-console.log(namesRandom('Jasmine')) //string
-console.log(namesRandom(19)) //number 
-console.log(namesRandom(true)) //boolean
+// function namesRandom(names){
+//     return typeof names
+// }
+// console.log(namesRandom('Jasmine')) //string
+// console.log(namesRandom(19)) //number 
+// console.log(namesRandom(true)) //boolean
 
 //example: 
 
@@ -101,41 +101,49 @@ console.log(namesRandom(true)) //boolean
 
 //Problem 5 
 
-var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy'] 
+// var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy'] 
 
 //Using the array above, create a function that returns the string, 'Hello Maurice and Chelsea!' 
 
 // Declaring/creating a function called hiMaurice
-function hiMaurice(studentNames){
-    console.log(studentNames) // ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy'] 
-    console.log(studentNames[1]) // Maurice
-    console.log(studentNames[2]) // Chelsea
+// function hiMaurice(studentNames){
+//     console.log(studentNames) // ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy'] 
+//     console.log(studentNames[1]) // Maurice
+//     console.log(studentNames[2]) // Chelsea
 
-    return 'Hello ' + studentNames[1] + ' and ' + studentNames[2] + '!' //Hello Maurice and Chelsea!
- }
-// invoking the funciton
-console.log(hiMaurice(names))
+//     return 'Hello ' + studentNames[1] + ' and ' + studentNames[2] + '!' //Hello Maurice and Chelsea!
+//  }
+// // invoking the funciton
+// console.log(hiMaurice(names))
 
 //Create a funciton that returns the string, 'Hi Jasmine and Daja!' 
 
-function welcome(names){
-    console.log(names[0]) //Jasmine
-    console.log(names[5]) // Daja
-    return `hi ${names[0]} and ${names[5]}!` 
-}
-console.log(welcome(names))
+// function welcome(names){
+//     console.log(names[0]) //Jasmine
+//     console.log(names[5]) // Daja
+//     return `hi ${names[0]} and ${names[5]}!` 
+// }
+// console.log(welcome(names))
 
 
 //Create a function that returns the string, 'Howdy Eddy!' 
 
-function howdyEd (name){
-    console.log(name[6]) //Eddy
-    return `howdy ${name[6]}!` 
-}
-console.log(howdyEd(names)) //howdy Eddy!
+// function howdyEd (name){
+//     console.log(name[6]) //Eddy
+//     return `howdy ${name[6]}!` 
+// }
+// console.log(howdyEd(names)) //howdy Eddy!
 
 //Create a function that returns the string, 'Happy Monday, Anitria!'
 
+function name (girlsBoys){
+    return `Happy Monday, ${girlsBoys}!` 
+}
+console.log(name(names[3])) // Happy Monday, Anitria!
+
 //Create a function that returns the string, 'Hey Tauseef!'
 
-
+function wednesday (tauseef){
+    return `Hey ${tauseef}!`;
+}
+console.log(wednesday(names[4])); //Hey Tauseef!

@@ -7,8 +7,8 @@
 /* -------------------------------------------------------------------------- */
 
 // Array.isArray()
-// console.log(Array.isArray([1, 2, 3])) //true
-// console.log(Array.isArray(7)) //false 
+console.log(Array.isArray([1, 2, 3])) //true
+console.log(Array.isArray(7)) //false 
 
 let randomArray = [0, false, true, 8, 'hi', '', 700, 'hello']
 // console.log(randomArray)

@@ -8,24 +8,30 @@
 // let: accessible within the scope
 // const: accessible within the scope, cannot be reassigned
 
+/* -------------------------------------------------------------------------- */
+// VARIABLE DECLARATION EXAMPLES
+
 // var anitria = "helloWorld";
 // console.log("anitria", anitria);
 
+// REASSIGNING VARIABLES
+
 // let x = 8;
-// console.log("what is x?", x);
+// console.log("what is x?", x); // what is x? 8
 // x = 1;
-// console.log("what is x now?", x);
+// console.log("what is x now?", x); //what is x now? 1
 
 // let y = "hi";
-// console.log("y", y);
+// console.log("y is", y); // y is hi
 // y = "hello";
-// console.log("what is y?", y);
+// console.log("y is", y); // y is hello
 
+// YOU CANNOT REASSIGN CONSTANT VARIABLES 
 // The console.logs below will not run
-// const y = "hi";
-// console.log("y", y);
-// y = "hello";
-// console.log("what is y?", y);
+// const z = "hi";
+// console.log("z", z); // z hi
+// z = "hello";
+// console.log("what is z?", z);  // THIS WILL NOT RUN 
 
 /* -------------------------------------------------------------------------- */
 
@@ -55,28 +61,32 @@
 // Non-Primitive/Composite Data Types
 // Object {}: Object properties are written as name:value pairs, separated by commas.
 // arrays []: high-level, list-like objects
-// functions:
+// functions: A JavaScript function is a reusable block of code designed to perform a particular task.
 
 /* -------------------------------------------------------------------------- */
 
 // Undefined vs null vs not defined/undeclared
 
-// undefined
+// UNDEFINED EXAMPLE
+// Did not assign the varibale string to anything
 // let string;
 // console.log(string);
 
-// null
+// NULL EXAMPLE
+// nothing: the variable nothing is assigned to nothing! 
+// You can use null as a placeholder 
 // let nothing = null;
 // console.log(nothing);
 
-// error: something is not defined
+// NOT DEFINED/UNDECLARED EXAMPLE
+// throws an error: something is not defined
 // console.log(something);
 
 /* -------------------------------------------------------------------------- */
 
-// typeof 
+// typeof operator definition: returns a string indicating the type of the data 
 
-console.log(typeof 6) // 'number'
-console.log(typeof 'hi') // 'string' 
-console.log(typeof {string: 'hi'}) // 'object'
-console.log(typeof [1, 2, 3]) // 'object'
+// console.log(typeof 6) // 'number'
+// console.log(typeof 'hi') // 'string' 
+// console.log(typeof {string: 'hi'}) // 'object'
+// console.log(typeof [1, 2, 3]) // 'object'
