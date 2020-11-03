@@ -1,77 +1,89 @@
 // ARRAY NOTES
 
-// Definition: Arrays are comma seperated lists of indexed information, they are surrounded by square brackets, can contain any data type, and are secretly actually objects. 
-
+// Definition: Arrays are comma seperated lists of indexed information, they are surrounded by square brackets [], can contain any data type, and are secretly actually objects. 
 // Elements: values inside an array
+
+// Array Example
+// let randomArray = [0, false, true, 8, 'hi', '', 700, 'hello']
+// console.log(randomArray)
+
 
 /* -------------------------------------------------------------------------- */
 
-// Array.isArray()
-console.log(Array.isArray([1, 2, 3])) //true
-console.log(Array.isArray(7)) //false 
-
-let randomArray = [0, false, true, 8, 'hi', '', 700, 'hello']
-// console.log(randomArray)
+// Array.isArray(parameter) definition: checks to see if whatever passed in the Array.isArray() method is an array or not - results: true/false
+// console.log(Array.isArray([1, 2, 3])) //true
+// console.log(Array.isArray(7)) //false 
 
 /* -------------------------------------------------------------------------- */
 
 // Indexing using bracket notation: array[i]
 // Definition: get specific elements from within an array by using bracket notation
 
-let testScores = [100, 80, 56, 75, 68, 99, 90]
+// let testScores = [100, 80, 56, 75, 68, 99, 90]
 
 // console.log(testScores[2]) // 56
 // console.log(testScores[0]) // 100
-// console.log(testScores[testScores.length - 1]) // 90
-// console.log(testScores[6])
 
 /* -------------------------------------------------------------------------- */
 
-// .length
-// console.log(testScores.length) // 7
+// .length difinition: Returns the length of a array
+
+// let genre = ['mystery', 'romance', 'drama', 'thrillers', 'biography', 'horror', 'fiction']
+
+// console.log(genre.length) //7
 
 /* -------------------------------------------------------------------------- */
 
-// .indexOf()
-// console.log(testScores.indexOf(80)) // 1
-// console.log(testScores.indexOf(90)) // 6
+// ACCESSING THE LAST ELEMENT IN THE ARRAY
+
+// console.log(genre.length) // 7
+// console.log(genre[6]) // fiction
+// console.log(genre.length - 1) // 6
+// console.log(genre[genre.length - 1]) //fiction
 
 /* -------------------------------------------------------------------------- */
 
-// .pop() definition: removed the last element inside the array
+// .indexOf() definition: returns the index of the element you pass into the method
+
+// let months = ['January', 'July', 'August', 'September', 'April']
+// console.log(months.indexOf('July')) // 1
+// console.log(months.indexOf('April')) // 4
+
+/* -------------------------------------------------------------------------- */
+
+// .pop() definition: removes the last element inside the array
 // let scores = [100, 80, 56, 75, 68, 99, 90]
-// let cars = ['toyota', 'bmw', 'honda', 'fiat', 'kia', 'range rover']
 // console.log(scores.pop()) // 90
 // console.log(scores) // [ 100, 80, 56, 75, 68, 99 ]
-// console.log(scores)
 // console.log(scores.pop()) // 99
-// console.log(scores)
+// console.log(scores) // [ 100, 80, 56, 75, 68 ]
 // console.log(scores.pop()) // 68
-// console.log(scores)
+// console.log(scores) //[ 100, 80, 56, 75 ]
 
 /* -------------------------------------------------------------------------- */
 
 // .push() definition: method adds one or more elements to the end of an array and returns the new length of the array.
-// console.log(scores)
-// scores.push(99, 90, 80)
-// console.log(scores)
-// console.log(cars)
-// cars.push('tesla')
-// console.log(cars)
+
+// let cars = ['toyota', 'bmw', 'honda', 'fiat', 'kia', 'range rover']
+
+// console.log(cars) //['toyota', 'bmw', 'honda', 'fiat', 'kia', 'range rover']
+// cars.push('tesla') 
+// console.log(cars) // [ 'toyota', 'bmw', 'honda', 'fiat', 'kia', 'range rover', 'tesla' ]
 
 /* -------------------------------------------------------------------------- */
 
 // .shift() definition: method removes the first element from an array and returns that removed element. This method changes the length of the array.
-let vitamins = ['vitamin B', 'vitamin C', 'multivitamin', 'fish oil', 'zinc', 'folic acid', 'vitamin gummies']
+// let vitamins = ['vitamin B', 'vitamin C', 'multivitamin', 'fish oil', 'zinc', 'folic acid', 'vitamin gummies']
 
 // console.log(vitamins.shift()) // vitamin B
 // console.log(vitamins) //[ 'vitamin C', 'multivitamin','fish oil','zinc','folic acid','vitamin gummies' ]
-
 // console.log(vitamins.shift(), vitamins.shift(), vitamins.pop()) //vitamin C multivitamin vitamin gummies
+// console.log(vitamins) //[ 'fish oil', 'zinc', 'folic acid' ]
 
 /* -------------------------------------------------------------------------- */
 
 // .unshift() Add new items to the beginning of an array
+
 // let shoes = ['nike', 'balenciaga', 'adidas', 'givenchy', 'reebok', 'crocs']
 
 // shoes.unshift('toms')
@@ -87,10 +99,11 @@ let vitamins = ['vitamin B', 'vitamin C', 'multivitamin', 'fish oil', 'zinc', 'f
 
 // console.log(vegetables.join(' ')) // broccoli brussle sprouts asparagus carrots spinatch tomato squash
 // console.log(vegetables.join(', ')) // broccoli, brussle sprouts, asparagus, carrots, spinatch, tomato, squash
+// console.log(vegetables.join(' + ')) // broccoli + brussle sprouts + asparagus + carrots + spinatch + tomato + squash
 
 /* -------------------------------------------------------------------------- */
 
-// .concat() definition: merge two or more arrays
+// // .concat() definition: merge two or more arrays
 // let foods = ['pizza', 'pasta', 'tacos', 'rice', 'burgers']
 // let snacks = ['cheetos', 'gold fish', 'doritos', 'popcorn']
 
@@ -111,14 +124,15 @@ let vitamins = ['vitamin B', 'vitamin C', 'multivitamin', 'fish oil', 'zinc', 'f
 
 // .splice(starting Index, delete count) definition: method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
 
-let socialMedia = ['facebook', 'twitter', 'instagram', 'linkedin', 'myspace']
+// let socialMedia = ['facebook', 'twitter', 'instagram', 'linkedin', 'myspace']
 
-socialMedia.splice(1, 1, 'snapchat') // [ 'twitter' ]
-console.log(socialMedia) // [ 'facebook', 'snapchat', 'instagram', 'linkedin', 'myspace' ]
-socialMedia.splice(1, 0, 'tik tok') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'linkedin', 'myspace' ]
-socialMedia.splice(-2, 0, 'tik tok') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'tik tok', 'linkedin', 'myspace' ]
-console.log(socialMedia)
-socialMedia.splice(-2, 2, 'pinterest') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'tik tok']
+// socialMedia.splice(1, 1, 'snapchat') // [ 'twitter' ]
+// console.log(socialMedia) // [ 'facebook', 'snapchat', 'instagram', 'linkedin', 'myspace' ]
+// socialMedia.splice(1, 0, 'tik tok') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'linkedin', 'myspace' ]
+// socialMedia.splice(-2, 0, 'tik tok') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'tik tok', 'linkedin', 'myspace' ]
+// console.log(socialMedia)
+// socialMedia.splice(-2, 2, 'pinterest') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'tik tok', 'pinterest']
+// console.log(socialMedia)
 
 
 

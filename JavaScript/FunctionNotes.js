@@ -14,19 +14,19 @@
 
 /* -------------------------------------------------------------------------- */
 
-// Syntax
+// SYNTAX
+
+// // // Multi line syntax:
+//     function functionName(parameters){
+//         //  do something 
+//         //  return something
+//     }
+// // Syntax for invocation with an argument
+//     console.log(functionName(arguments))
+
 
 // Single line syntax (unusual):
-    //  function name(parameters){return x}
-
-// Multi line syntax:
-    //  function name(parameters){
-    //      do something 
-    //      return something
-    // }
-// Syntax for invocation with an argument
-    // name(arguments)
-
+    // function functionName(parameters){return x}
 /* -------------------------------------------------------------------------- */
 
 // PARAMETERS VS ARGUMENTS
@@ -40,6 +40,22 @@
 // Arguments:
     // If a function has parameters, it needs to take in arguments
     // These arguments are passed in the funtion when the function is called/invoked
+
+
+/* -------------------------------------------------------------------------- */
+// Default Parameters
+
+// function defaultArg(param = 1){
+//     return param
+// }
+// console.log(defaultArg())
+
+// function noMiddleName (firstName, middleName, lastName = ' '){
+//     return firstName[0] + middleName[0] + lastName[0]
+// }
+
+// console.log(noMiddleName('Manami','Ueda')) // MU
+// console.log(noMiddleName('Manami', 'Chris', 'Ueda')) // MCU
 
 /* -------------------------------------------------------------------------- */
 
@@ -57,14 +73,34 @@
 // }
 // anonymousFunction(args)
 
-// Arrow function (ES6)
+// // Arrow function (ES6)
 // let arrowFunction = (params) => {
 //     // block of code -> what the function does
 // }
 // arrowFunction(args)
 
 /* -------------------------------------------------------------------------- */
-// FUNCTION EXAMPLES
+// Immediately Invoked Function Expression (IIFE)
+// var iifeExample = 'This is a string;';
+
+// console.log(function(param){
+//     return param.replace(/ /g,'-');
+// }(iifeExample)); // This-is-a-string;
+
+// // IIFE for ES6
+
+// console.log(((param) => {
+//     return param.replace(/ /g,'-');
+// })(iifeExample)); // This-is-a-string;
+
+// // IIFE without parameters, using ES6 and is anonymous
+
+// console.log((() => {
+//     return 'IIFE'
+// })()); // IIFE
+
+/* -------------------------------------------------------------------------- */
+// FUNCTION EXAMPLE 1
 
 // Function Goal: return the sum of two numbers 
 // adding -> name of the function
@@ -75,8 +111,8 @@
 // the numbers 5 and 10 -> are the arguments 
 
 // function adding (num1, num2){
-//     console.log(num1) 
-//     console.log(num2) 
+//     // console.log(num1) 
+//     // console.log(num2) 
 //     return num1 + num2 
 // }
 
@@ -85,6 +121,8 @@
 // console.log(adding(16, 1)) // 17
 // console.log(adding(7, 2)) // 9
 
+/* -------------------------------------------------------------------------- */
+// FUNCTION EXAMPLE 2
 
 //  Function Goal: return the string: 'hi Tefe'
 // welcome -> function name
@@ -101,8 +139,10 @@
 // console.log(welcome('Jasmine')) // hi Jasmine
 // console.log(welcome('Eddy')) // hi Eddy
 
+/* -------------------------------------------------------------------------- */
+// FUNCTION EXAMPLE 3
 
-let cities = ['New York City', 'Amsterdam', 'Miami', 'Chicago', 'Madrid', 'London']
+// let cities = ['New York City', 'Amsterdam', 'Miami', 'Chicago', 'Madrid', 'London']
 
 // favCities -> name of the function
 // individualCity -> parameter
@@ -110,19 +150,23 @@ let cities = ['New York City', 'Amsterdam', 'Miami', 'Chicago', 'Madrid', 'Londo
 // cities[0], cities[1], cities[2]... -> represent the individual cities in the cities array
 // favCities() -> the invovcation/calling of the favCities() function 
 
-function favCities (individualCity){
-    console.log(individualCity) 
- return `My favorite city is ${individualCity}`
-}
-console.log(favCities(cities[0])) // My favorite city is New York City
-console.log(favCities(cities[1])) // My favorite city is Amsterdam
-console.log(favCities('New York City 2'))
+// let americanCities = ['Denver', 'LA', 'Las Vagas', 'Albany', 'Chicago', 'Philly', 'Buffalo']
 
+// function favCities (individualCity){
+//  return `My favorite city is ${individualCity}`
+// }
+// console.log(favCities(cities[0])) // My favorite city is New York City
+// console.log(favCities(cities[1])) // My favorite city is Amsterdam
 // console.log(favCities(cities[2])) // My favorite city is Miami
 // console.log(favCities(cities[3])) // My favorite city is Chicago
 // console.log(favCities(cities[4])) // My favorite city is Madrid
 // console.log(favCities(cities[5])) // My favorite city is London
 
+// console.log(favCities(americanCities[0])) // My favorite city is Denver
+// console.log(favCities(americanCities[3])) // My favorite city is Albany
+
+/* -------------------------------------------------------------------------- */
+// FUNCTION EXAMPLE 4
 
 // fourthCity -> name of the function
 // cityArray -> parameter of the fourthcity function
@@ -130,28 +174,31 @@ console.log(favCities('New York City 2'))
 // fourthCity(cities) -> invocation/calling of the fourthCity function
 // cities -> argument that you are calling the fourthCity function with
 
+// let candies = ['skittles', 'candy corn', 'smarties', 'reeses', 'snickers', 'mounds']
 
-// Declaring the function
-// function fourthCity(cityArray){
+// // Declaring the function
+// function fourthCandy(candyArray){
 //     //  logging the array onto the terminal
-//     console.log(cityArray)
-//     //  returning the string 'the fourth city is Chicago'
-//     return 'the fourth city is ' + cityArray[3];
+//     console.log(candyArray)
+//     //  returning the string 'the fourth candy is Chicago'
+//     return 'the fourth candy is ' + candyArray[3];
 // } 
 // // invoking the function
-// console.log(fourthCity(cities)) // the fourth city is Chicago
+// console.log(fourthCandy(candies)) // the fourth city is reeses
 
+/* -------------------------------------------------------------------------- */
+// FUNCTION EXAMPLE 5
 
 // let computers = ['Mac', 'Acer', 'Dell', 'ThinkPad', 'Lenovo', 'HP']
 // let weather = ['sunny', 'rainy', 'cloudy', 'snowy']
-// Function Goal: Remove the first element in and array
-// removeFirstElement -> function name 
-// cheese -> parameter
-// cheese.shift() -> block of code inside the function that is removing the first element of the cities array
-// removeFirstElement(cities) -> invoking/calling the function with the cities array
-// cities -> argument we are calling the removeFirstElement function with
+// // Function Goal: Remove the first element in and array
+// // removeFirstElement -> function name 
+// // cheese -> parameter
+// // cheese.shift() -> block of code inside the function that is removing the first element of the cities array
+// // removeFirstElement(cities) -> invoking/calling the function with the cities array
+// // cities -> argument we are calling the removeFirstElement function with
 
-// declaring the funciton removeFirstElement the takes in a parameter cheese
+// // declaring the funciton removeFirstElement the takes in a parameter cheese
 // function removeFirstElement (cheese){
 //     // block of code inside the removeFirstElement function that is removing the first element in the array
 //     cheese.shift()
@@ -159,25 +206,12 @@ console.log(favCities('New York City 2'))
 //     return cheese
 // }
 // // calling the removeFirstElement funciton with the argument cities
-// console.log(removeFirstElement(cities)) // [ 'Amsterdam', 'Miami', 'Chicago', 'Madrid', 'London' ]
 // console.log(removeFirstElement(computers)) // [ 'Acer', 'Dell', 'ThinkPad', 'Lenovo', 'HP' ]
 // console.log(removeFirstElement(weather)) // [ 'rainy', 'cloudy', 'snowy' ]
 
 
-// Declare a funciton called myInitials. it takes in two parameters: your firstName and your lastName 
-// return your initias 
-
-// Declare a function called removeTheLastElement that takes in a parameter: array
-// remove the last element and return the new array 
 
 
 
 
-
-
-// Immediately Invoked Function Expression (IIFE)
-// Default arguments
-
-// scope 
-// global vs local 
 

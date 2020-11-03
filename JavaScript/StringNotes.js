@@ -157,7 +157,7 @@
 
 /* -------------------------------------------------------------------------- */
 
-// ACCESSING THE LAST INDEX OF A STRING
+// ACCESSING THE LAST CHARACTER OF A STRING USING .LENGTH AND INDEXING
 
 // let sentence = "hello";
 
