@@ -11,8 +11,8 @@
 /* -------------------------------------------------------------------------- */
 
 // Array.isArray(parameter) definition: checks to see if whatever passed in the Array.isArray() method is an array or not - results: true/false
-// console.log(Array.isArray([1, 2, 3])) //true
-// console.log(Array.isArray(7)) //false 
+console.log(Array.isArray([1, 2, 3])) //true
+console.log(Array.isArray(7)) //false 
 
 /* -------------------------------------------------------------------------- */
 

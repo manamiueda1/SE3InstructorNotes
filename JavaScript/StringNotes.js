@@ -219,11 +219,11 @@
 
 // .indexOf(searchValue) definition: returns the index of the value you pass into the method
 
-// let school = 'welcome to nebula academy'
-// console.log(school.indexOf('l')) //2
-// console.log(school.indexOf('z')) // -1
-// console.log(school.indexOf('j')) // -1
-// console.log(school.indexOf('nebula')) //11
+let school = 'welcome to nebula academy'
+console.log(school.indexOf('l')) //2
+console.log(school.indexOf('z')) // -1
+console.log(school.indexOf('j')) // -1
+console.log(school.indexOf('nebula')) //11
 
 /* -------------------------------------------------------------------------- */
 
