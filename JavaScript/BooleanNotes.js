@@ -79,10 +79,10 @@
 // console.log(Boolean(1) && Boolean(0)) // false 
 // console.log(Boolean('') && Boolean('hi')) // false 
 
-// console.log(true && true) //true
-// console.log(true && false) //false
-// console.log(false && true) //false
-// console.log(false && false) //false
+console.log(true && true) //true
+console.log(true && false) //false
+console.log(false && true) //false
+console.log(false && false) //false
 
 
 
