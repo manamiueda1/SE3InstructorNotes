@@ -11,7 +11,10 @@
     //     // do something
     // }
 
-// Types:
+/* -------------------------------------------------------------------------- */
+
+
+// DIFFERENT TYPES OF LOOPS
     //     // Note: we will usually just use for or for-in loops
     // // while
     //     while(condition /* is true*/){
@@ -29,6 +32,11 @@
         // for(var key in object){
         //     // do something
         // }
+
+
+/* -------------------------------------------------------------------------- */
+
+// LOOPING THROUGH A STRING
 
     // let iterateString = 'nebula'        
     //                 //   012345   
@@ -55,29 +63,6 @@
     // }
     // console.log(looping(iterateString))
     // console.log(looping('Nubula academy saturday class'))
-
-    // DO NOT RUN THIS 
-    // STACK OVER FLOW
-    // ctl -c to get out of it 
-    // for (let i = 0; i >= 0; i++){
-    //     console.log(i)s
-    // }
-
-    // function zeroToFive (){
-    //     // i is representing the index numbers 
-    //     for (let i = 0; i <= 5; i++){
-    //         // first iteration -> i = 0; true; i++ 
-    //         // second iteration -> i = 1; true; i++
-    //         // third iteration -> i = 2; true; i++
-    //         // fourth iteration -> i = 3; true; i++
-    //         // fifth iteration -> i = 4; true; i++
-    //         // sixth iteration -> i = 5; true; i++
-    //         // seventh iteration -> i = 6; false; 
-    //         console.log(i) // 0 1 2 3 4 5 
-    //     }
-    //     return 'done!'
-    // }
-    // console.log(zeroToFive())
 
 
 // function iterateChars (string){
@@ -110,7 +95,40 @@
 // // d
 // // y
 // // we are done!!!
+/* -------------------------------------------------------------------------- */
 
+// STACK OVER FLOW: FOR LOOP
+
+    // DO NOT RUN THIS 
+    // STACK OVER FLOW
+    // ctl -c to get out of it 
+    // for (let i = 0; i >= 0; i++){
+    //     console.log(i)s
+    // }
+
+/* -------------------------------------------------------------------------- */
+
+// LOOPING NUMBERS 
+
+    // function zeroToFive (){
+    //     // i is representing the index numbers 
+    //     for (let i = 0; i <= 5; i++){
+    //         // first iteration -> i = 0; true; i++ 
+    //         // second iteration -> i = 1; true; i++
+    //         // third iteration -> i = 2; true; i++
+    //         // fourth iteration -> i = 3; true; i++
+    //         // fifth iteration -> i = 4; true; i++
+    //         // sixth iteration -> i = 5; true; i++
+    //         // seventh iteration -> i = 6; false; 
+    //         console.log(i) // 0 1 2 3 4 5 
+    //     }
+    //     return 'done!'
+    // }
+    // console.log(zeroToFive())
+
+/* -------------------------------------------------------------------------- */
+
+// LOOPING THROUGH AN ARRAY
 
 // let stringArray = ['Jasmine', 'Tauseef', 'Anitria', 'Daja', 'Maurice']
 
@@ -130,6 +148,7 @@
 
 // console.log(iterateArrays(stringArray))
 
+/* -------------------------------------------------------------------------- */
 
 // WHILE LOOPS
 
@@ -150,8 +169,10 @@
 // console.log(whileTrue(5))
 // // // console.log(whileTrue(100))
 
+/* -------------------------------------------------------------------------- */
 
-// do-while
+// DO-WHILE LOOP
+
 // do{
 //     // do something 
 // } while (condition /* is true*/)
@@ -166,3 +187,13 @@
 //     return 'loop works'
 // }
 // console.log(doWhile(5))
+
+/* -------------------------------------------------------------------------- */
+
+// PRACTICE PROBLEMS 
+
+//  given an array of numbers: let numArray = [12, 3, 5, 12, 5, 23, 8, 4] 
+// create a function that iterates through the array and log each element
+
+// given a string: let 'software decelopment'
+// create a function that iterates through the string and log each chracter 
