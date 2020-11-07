@@ -197,3 +197,4 @@
 
 // given a string: let 'software decelopment'
 // create a function that iterates through the string and log each chracter 
+
