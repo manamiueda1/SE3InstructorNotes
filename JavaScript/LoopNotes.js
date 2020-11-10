@@ -33,6 +33,39 @@
         //     // do something
         // }
 
+/* -------------------------------------------------------------------------- */
+
+// BREAK VS CONTINUE
+
+// BREAK STATEMENT definition: The break statement terminates the current loop
+
+
+// function breakAfterFive(num){
+//     for (let i = 0; i <= num; i++){
+//         console.log(i)
+//         if (i === 5){
+//             break
+//         }
+//     }
+//     return 'This function breaks out of the loop at 5'
+// }
+// console.log(breakAfterFive(20))
+
+/* -------------------------------------------------------------------------- */
+//  CONTINUE STATEMENT definition: The continue statement terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration.
+
+// log after the continue statement
+
+// function continueAtFive(num){
+//     for (let i = 0; i <= num; i++){
+//         if (i === 5){
+//             continue;
+//         }
+//         console.log(i)
+//     }
+//     return 'This function will continue to loop without 5'
+// }
+// console.log(continueAtFive(10))
 
 /* -------------------------------------------------------------------------- */
 
