@@ -223,11 +223,5 @@
 
 /* -------------------------------------------------------------------------- */
 
-// PRACTICE PROBLEMS 
-
-//  given an array of numbers: let numArray = [12, 3, 5, 12, 5, 23, 8, 4] 
-// create a function that iterates through the array and log each element
-
-// given a string: let 'software decelopment'
-// create a function that iterates through the string and log each chracter 
+// NESTED LOOPS 
 

@@ -1,4 +1,5 @@
 //  COMBINING LOOPS AND CONDITIONALS 
+// Practice Problems 
 
 // let numArray = [12, 3, 5, 12, 5, 23, 8, 4] 
 
