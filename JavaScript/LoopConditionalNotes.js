@@ -20,6 +20,7 @@
 
 // PRACTICE PROBLEMS 
 
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 // add all of the numbers in the array
@@ -47,7 +48,6 @@
 // }
 // console.log(onlyAddOdds(array)) // 25
 
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 // count how many numbers are even in the array
 
