@@ -3,16 +3,24 @@
 // Definition: Arrays are comma seperated lists of indexed information, they are surrounded by square brackets [], can contain any data type, and are secretly actually objects. 
 // Elements: values inside an array
 
-// Array Example
+// ARRAY EXAMPLE
+
+// let emptyArray = [] // Empty array
+// console.log(emptyArray)
+
 // let randomArray = [0, false, true, 8, 'hi', '', 700, 'hello']
 // console.log(randomArray)
 
+/* -------------------------------------------------------------------------- */
+// NESTED ARRAYS
+
+// let nestedArray = [0, 1, [2, 3, 4], 5, 6, 7, [], [8, 9, 10], 11, 12, [13]]
 
 /* -------------------------------------------------------------------------- */
 
 // Array.isArray(parameter) definition: checks to see if whatever passed in the Array.isArray() method is an array or not - results: true/false
-console.log(Array.isArray([1, 2, 3])) //true
-console.log(Array.isArray(7)) //false 
+// console.log(Array.isArray([1, 2, 3])) //true
+// console.log(Array.isArray(7)) //false 
 
 /* -------------------------------------------------------------------------- */
 

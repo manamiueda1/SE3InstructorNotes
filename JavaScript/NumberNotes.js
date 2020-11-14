@@ -41,8 +41,8 @@
 
 // Math.pow(base, exponent) 
 
-// console.log(Math.pow(2, 3)) // 8
-// console.log(Math.pow(7, 20)) // 79792266297612000
+console.log(Math.pow(2, 3)) // 8
+console.log(Math.pow(7, 20)) // 79792266297612000
 
 /* -------------------------------------------------------------------------- */
 
