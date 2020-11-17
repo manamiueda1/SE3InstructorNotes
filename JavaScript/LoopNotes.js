@@ -279,3 +279,48 @@ console.log(loopGraph(graph))
 // 9
 
 // using the nestedArray above, log every number in the array and the nested array  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// log only the odd numbers in the array and in the nested arrays 
