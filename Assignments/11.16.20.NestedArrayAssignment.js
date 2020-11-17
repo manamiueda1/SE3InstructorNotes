@@ -211,7 +211,7 @@
     // else if check to see if the element inside the nestedArr array has a length of 4 
     // if so, log that element
 
-// let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
+let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
 
 
 // function lengthOfFour (array){
@@ -232,3 +232,6 @@
 // }
 // console.log(lengthOfFour(nestedArr))
 
+
+// using the nested array above (nestedArr), remove the first element in the nested arrays
+// using the nested array above (nestedArr), add 's' to every word in the elements inside the array and and in the nested arrays
