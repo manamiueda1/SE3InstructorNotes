@@ -25,9 +25,28 @@
 // Gravity Flip
 // https://www.codewars.com/kata/5f70c883e10f9e0001c89673
 
+// const flip = (dir, arr)=>{
+//     if (dir === 'R'){
+//        return arr.sort((a, b) => a - b);
+//     } 
+//     return arr.sort((a, b) => b - a);
+//   }
+
 // Problem #4
 // Reversed Words
 // https://www.codewars.com/kata/51c8991dee245d7ddf00000e
+
+// function reverseWords(str){
+//     let result = ''
+    
+//     let splitStr = str.split(' ')
+//     console.log(splitStr)
+    
+//     for (let i = splitStr.length-1; i >= 0; i--){
+//       result += ' ' + splitStr[i]
+//     }
+//     return result.slice(1)
+//   }
 
 // Problem #5
 // Are you playing banjo?
@@ -44,6 +63,14 @@
 // Problem #6
 // Summation
 // https://www.codewars.com/kata/55d24f55d7dd296eb9000030
+
+// var summation = function (num) {
+//     let total = 0
+//     for (let i = 0; i <= num; i++){
+//       total += i;
+//     }
+//     return total; 
+//   }
 
 // Problem #7
 // Invert Values
