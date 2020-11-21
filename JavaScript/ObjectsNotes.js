@@ -34,6 +34,8 @@
 
 
 
+
+
 // // Notations:
 //     // Dot notation 
 //         // Great for quickly accessing keys and getting their values
@@ -51,3 +53,22 @@
 //                 // console.log(obj4[key])// using bracket notation with a variable to get access to obj4's name value
 //                 // console.log(obj4['age'])// using bracket notation with a string to get access to obj4's age value
 //                 // console.log(obj4.height)// using dot notation to get access to obj4's height value
+
+
+
+
+// Adding a key value pair
+// Deleting a key value pair
+// Reassigning a value 
+
+// Cars example
+
+// OBJECT METHODS
+
+// Object.keys
+// Object.values 
+
+
+// looping through an object
+
+

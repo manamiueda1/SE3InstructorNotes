@@ -229,9 +229,9 @@ console.log(school.indexOf('nebula')) //11
 
 // .includes(searchString) definition: determines whether one string may be found within another string, returning true or false as appropriate.
 
-// let socialMedia = 'Hello, welcome to facebook'
-// console.log(socialMedia.includes('l')) // true
-// console.log(socialMedia.includes('z')) // false
+let socialMedia = 'Hello, welcome to facebook'
+console.log(socialMedia.includes('l')) // true
+console.log(socialMedia.includes('z')) // false
 
 /* -------------------------------------------------------------------------- */
 

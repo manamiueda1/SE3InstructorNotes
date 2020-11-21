@@ -211,7 +211,7 @@
     // else if check to see if the element inside the nestedArr array has a length of 4 
     // if so, log that element
 
-let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
+// let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
 
 
 // function lengthOfFour (array){
