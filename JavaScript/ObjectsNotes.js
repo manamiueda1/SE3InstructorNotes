@@ -130,3 +130,35 @@ loopObjValues(car2)
 // create a function that returns the keys in an array
 // create a funciton that returns the values in an array format
 
+
+let customer1 = {
+    name: 'Mary',
+    id: 1,
+    items: ['water bottle', 'camera', 'book', 'haribands', 'shirt'], 
+}
+
+//  create afunciton that counts the amount of items the customer bought. 
+// return the string: (name) bought (number) of items 
+
+
+let animals = {
+    dog: {
+        name: 'Joey',
+        age: 10
+    },
+    camel: {
+        name: 'Cathy',
+        age: 2
+    },
+    cow: {
+        name: 'Sean',
+        age: 15
+    },
+    turtle: {
+        name: 'Victoria',
+        age: 100
+    }  
+}
+
+// create a funciton that loops through the animals object 
+// and logs the string for each object: (name) the (animal) is (age) years old. 
