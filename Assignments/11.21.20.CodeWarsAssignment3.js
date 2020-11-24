@@ -62,12 +62,8 @@
 //     return sum;
 //   }
 
-
-
-
-
-
-
+/* -------------------------------------------------------------------------- */
+// PAIR PROGRAMMING PRACTICE PROBLEMS 
 
 // Problem #6
 // Find the difference in age 
@@ -77,14 +73,3 @@
 // Row Weights
 // https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9
 
-// Problem #8
-// Maximum product
-// https://www.codewars.com/kata/5a4138acf28b82aa43000117
-
-// Problem #9
-// Maximum gap
-// https://www.codewars.com/kata/5a7893ef0025e9eb50000013
-
-// Problem #10
-// Nth smallest element
-// https://www.codewars.com/kata/5a512f6a80eba857280000fc
