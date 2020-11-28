@@ -1,15 +1,15 @@
 
-let studentObject1 = {
-    name: 'Tim',
-    id: 1,
-    age: 22
-}
+// let studentObject1 = {
+//     name: 'Tim',
+//     id: 1,
+//     age: 22
+// }
 
-let studentObject2 = {
-    name: 'Lisa',
-    id: 2,
-    age: 19
-} 
+// let studentObject2 = {
+//     name: 'Lisa',
+//     id: 2,
+//     age: 19
+// } 
 
 // problem #1
 // Using the first studentObject1 above, create a function that returns the string, 'Tim is 22 years old' 
@@ -90,5 +90,48 @@ let studentObject2 = {
 // Welcome!
 // https://www.codewars.com/kata/577ff15ad648a14b780000e7/train/javascript
 
+// let hello = {
+//     english: 'Welcome',
+//     czech: 'Vitejte',
+//     danish: 'Velkomst',
+//     dutch: 'Welkom',
+//     estonian: 'Tere tulemast',
+//     finnish: 'Tervetuloa',
+//     flemish: 'Welgekomen',
+//     french: 'Bienvenue',
+//     german: 'Willkommen',
+//     irish: 'Failte',
+//     italian: 'Benvenuto',
+//     latvian: 'Gaidits',
+//     lithuanian: 'Laukiamas',
+//     polish: 'Witamy',
+//     spanish: 'Bienvenido',
+//     swedish: 'Valkommen',
+//     welsh: 'Croeso'
+//   }
+  
+//   function greet(language) {
+//     for (let key in hello){
+//       if (language == key){
+//         return hello[key]
+//       } 
+//     }   
+//     return 'Welcome'
+//   }
+
 // Job Matching #1
 // https://www.codewars.com/kata/56c22c5ae8b139416c00175d/train/javascript
+
+
+// function match(candidate, job) {
+//     // is this job a valid match for the candidate?
+    
+//     let need = candidate.minSalary 
+//     let offer = job.maxSalary 
+    
+//     if (offer >= need){
+//       return true
+//     } else {
+//       return false
+//     }
+//   }

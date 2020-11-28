@@ -6,7 +6,7 @@
 // for loop syntax
     // declare a vaiable (i), and set it equal to our starting number
     // create a condition that stipulates when we stop the loop
-    // indicate how the variable (i) will change each interation 
+    // indicate how the variable (i) will change each iteration 
     // for (let i = 0; i < 10; i++){
     //     // do something
     // }
