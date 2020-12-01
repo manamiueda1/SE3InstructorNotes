@@ -27,6 +27,8 @@
     
 //   }
 
+/* -------------------------------------------------------------------------- */
+
 // Problem #2
 // Simple directions reversal
 // https://www.codewars.com/kata/5b94d7eb1d5ed297680000ca
@@ -61,6 +63,10 @@
 //   }
 //   return newPath.reverse()
 // }
+
+
+/* -------------------------------------------------------------------------- */
+
 
 // Problem #3
 // Life Path Number

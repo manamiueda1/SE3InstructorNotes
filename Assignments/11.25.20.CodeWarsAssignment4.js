@@ -19,6 +19,10 @@
   
 //   // [1, 2, 3]      array.length = 3 -1 = 2
 
+
+/* -------------------------------------------------------------------------- */
+
+
 // Problem #2
 // Maximum gap
 // https://www.codewars.com/kata/5a7893ef0025e9eb50000013
@@ -37,6 +41,10 @@
 //     return max
 //   }
 
+
+/* -------------------------------------------------------------------------- */
+
+
 // Problem #3
 // Nth smallest element
 // https://www.codewars.com/kata/5a512f6a80eba857280000fc
@@ -46,6 +54,10 @@
 //     return answer[pos-1]
 //  }
 
+
+/* -------------------------------------------------------------------------- */
+
+
 // Problem #4
 // repeatStr
 // https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript
@@ -53,6 +65,9 @@
 // function repeatStr (n, s) {
 //     return s.repeat(n);
 //   }
+
+
+/* -------------------------------------------------------------------------- */
 
 
 // Problem #5 

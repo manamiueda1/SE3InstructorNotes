@@ -18,7 +18,7 @@
 
 /* -------------------------------------------------------------------------- */
 
-// Iterative Version
+// ITERATIVE VERSION
 // function countDown(num){
 //     for(let i = num; i > 0; i--){
 //         console.log(i);
@@ -28,7 +28,7 @@
 
 // console.log(countDown(5))
 
-// Recursive Version
+// RECURSIVE VERSION
 // function countDown(num){
 //     // base case: checking to see if num is less than or equal to 0
 //     if(num <= 0) {
@@ -61,6 +61,8 @@
 
 // num of 10: 10+9+8+7+6+5+4+3+2+1=55
 
+
+// ITERATIVE VERSION
 // function sumOf (num){
 //     let total = 0;
 //     for (let i = num; i > 0; i--){
@@ -71,7 +73,7 @@
 
 // console.log(sumOf(10)) //55
 
-
+// RECURSIVE VERSION
 // function sumRange(num){
 //     // Base case: when num hits 1, simply return 1
 //     if(num === 1) {
@@ -97,7 +99,7 @@
 // let array = [1, 2, 5, [], 5, 6, [7, 5, 6], 9]
 
 
-// // Iterative Version
+// // ITERATIVE VERSION
 // function flattenArray(arr){
 //     let result = []
 
@@ -117,7 +119,7 @@
 // console.log(flattenArray(array))
 
 
-
+// // RECURSIVE VERSION
 // function flatten(arr){
 //     let result = []
 //     for(let i = 0; i < arr.length; i++){
@@ -129,12 +131,11 @@
 //         }
 //     }
 //      return result 
- 
 // }
 
 // console.log(flatten([1, 5, 6, [3, [5]]])) // [ 1, 5, 6, 3, 5 ]
 
-//  result = [1, 5, 6] .concat ([3, [5]]) .concat([5]) 
+//  result = [1, 5, 6] .concat ([3]) .concat([5]) 
 
 
 /* -------------------------------------------------------------------------- */

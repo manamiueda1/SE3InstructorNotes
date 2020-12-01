@@ -10,6 +10,10 @@
 //     return total
 //   }
 
+
+/* -------------------------------------------------------------------------- */
+
+
 // // Problem #2 L1: Set Alarm
 // // https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript
 
@@ -20,6 +24,10 @@
 //       return false 
 //     }
 //   }
+
+
+/* -------------------------------------------------------------------------- */
+
 
 // //   Problem #3 Array plus array
 // // https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript
@@ -35,6 +43,10 @@
     
 //   }
 
+
+/* -------------------------------------------------------------------------- */
+
+
 // // Problem #4
 // // https://www.codewars.com/kata/55a70521798b14d4750000a4/train/javascript
 
@@ -46,6 +58,10 @@
 // //   Problem #5 Filling an array (part 1)
 // //  https://www.codewars.com/kata/571d42206414b103dc0006a1/train/javascript
 
+
+/* -------------------------------------------------------------------------- */
+
+
 // const arr = N => {
 //     let array = []
     
@@ -54,6 +70,9 @@
 //     }
 //     return array
 //   }
+
+
+/* -------------------------------------------------------------------------- */
 
 
 // //   Problem #6 N-th Power
@@ -72,6 +91,9 @@
 //     }
 //     return Math.pow(array[n], n)
 //   }
+
+
+/* -------------------------------------------------------------------------- */
 
 
 // //   Problem #7 Beginner Series #2 Clock
