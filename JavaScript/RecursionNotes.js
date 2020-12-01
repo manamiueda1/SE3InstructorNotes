@@ -104,7 +104,7 @@
 //     for (let i = 0; i < arr.length; i++){
 //         let element = arr[i]
 //         if (Array.isArray(element)){
-//             for (let j = 0; j < element[j]; j++){
+//             for (let j = 0; j < element.length; j++){
 //                 result.push(element[j])
 //             }
 //         }
