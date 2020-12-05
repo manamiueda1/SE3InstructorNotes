@@ -1,13 +1,14 @@
 // Conditional
-    // Note: 'if' or 'else if' or 'else' statement
+
     // Definition: 
         // Executes a statement if a specefied condition is met (true/truthy). 
         // If that condition is false, another statement or lack there of is executed.
 
+    // Note: 'if' or 'else if' or 'else' statement
 /* -------------------------------------------------------------------------- */
 // SYNTAX
 
-// 'IF' STATEMENT
+// // 'IF' STATEMENT
 // let condition1_is_met
 // let condition2_is_met
 // let condition3_is_met
@@ -24,7 +25,7 @@
 //     // execute this code if condition1 is NOT met/true  
 // }
 
-// // 'IF' VS 'ELSE IF' VS 'ELSE' statements
+// 'IF' VS 'ELSE IF' VS 'ELSE' statements
 
 // if (condition1_is_met){
 //     // execute this code if condition1 IS met
@@ -38,6 +39,8 @@
 // }
 
 // Note: Comparison operators go hand-in-hand with conditionals
+// Check out Boolean Notes
+
     // >
     // <
     // >=

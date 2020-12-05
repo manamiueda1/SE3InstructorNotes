@@ -25,13 +25,13 @@
     //         // do something 
     //     } while (condition /* is true*/)
     // // for
-    //     for(var i = 0; i < arr.length; i++){
+    //     for(let i = 0; i < arr.length; i++){
     //         // do something
     //     }
-    // for-in
-        // for(var key in object){
-        //     // do something
-        // }
+    // // for-in
+    //     for(let key in object){
+    //         // do something
+    //     }
 
 /* -------------------------------------------------------------------------- */
 
@@ -39,10 +39,10 @@
 
 // BREAK STATEMENT definition: The break statement terminates the current loop
 
-
 // function breakAfterFive(num){
 //     for (let i = 0; i <= num; i++){
 //         console.log(i)
+
 //         if (i === 5){
 //             break
 //         }
@@ -71,8 +71,8 @@
 
 // LOOPING THROUGH A STRING
 
-    // let iterateString = 'nebula'        
-    //                 //   012345   
+    let iterateString = 'nebula'        
+                    //   012345   
     // console.log(iterateString.length) // 6
 
     // for() -> declaring a for loop 
@@ -81,7 +81,7 @@
     // 3rd condition: i++ ->  increasing the index 
 
     // for (let i = 0; i < iterateString.length; i++ ){
-    //     // console.log(iterateString[i])
+    //     console.log(iterateString[i])
     // }
 
     // for (let i = iterateString.length -1; i >= 0; i-- ){
@@ -89,13 +89,13 @@
     // }
 
     // function looping (str){
-    //     for (let i = iterateString.length - 1; i >= 0; i-- ){
+    //     for (let i = str.length - 1; i >= 0; i-- ){
     //         console.log(str[i])
     //     }
     //    return 'done!'
     // }
     // console.log(looping(iterateString))
-    // console.log(looping('Nubula academy saturday class'))
+    // console.log(looping('Nebula academy saturday class'))
 
 
 // function iterateChars (string){
@@ -136,7 +136,7 @@
     // STACK OVER FLOW
     // ctl -c to get out of it 
     // for (let i = 0; i >= 0; i++){
-    //     console.log(i)s
+    //     console.log(i)
     // }
 
 /* -------------------------------------------------------------------------- */
@@ -185,7 +185,7 @@
 
 // WHILE LOOPS
 
- // while
+//  while
 // while(condition /* is true*/){
 //     // do something
 // }
@@ -200,7 +200,7 @@
 //     return 'it works!'
 // }
 // console.log(whileTrue(5))
-// // // console.log(whileTrue(100))
+// // console.log(whileTrue(100))
 
 /* -------------------------------------------------------------------------- */
 
@@ -225,22 +225,23 @@
 
 // NESTED LOOPS 
 
-let nestedArray = [0, 1, [2, 3, 4], 5, 6, 7, [], [8, 9, 10], 11, 12, [13]]
+// let nestedArray = [0, 1, [2, 3, 4], 5, 6, 7, [], [8, 9, 10], 11, 12, [13]]
 
-function loopForNested (array) {
-    for (let i = 0; i < array.length; i++){
-        let numElement = array[i]
-        if (Array.isArray(numElement)){
-            for (let j = 0; j < numElement[j]; j++){
-                let elementInNested = numElement[j]
-                console.log(elementInNested)
-            }
-        }
-    }
-    return 'is it working!?'
-}
+// function loopForNested (array) {
+//     for (let i = 0; i < array.length; i++){
+//         let numElement = array[i]
+//         if (Array.isArray(numElement)){
+//             for (let j = 0; j < numElement.length; j++){
+//                 let elementInNested = numElement[j]
 
-console.log(loopForNested(nestedArray))
+//                 console.log(elementInNested)
+//             }
+//         }
+//     }
+//     return 'is it working!?'
+// }
+
+// console.log(loopForNested(nestedArray))
 // 2
 // 3
 // 4
@@ -252,22 +253,23 @@ console.log(loopForNested(nestedArray))
 
 
 
-let graph = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+// let graph = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ]
 
-function loopGraph (array){
-    for (let i = 0; i < array.length; i++){
-        let row = array[i]
-        for (let j = 0; j < row.length; j++){
-            let column = row[j]
-            console.log(column)
-        }
-    }
-}
-console.log(loopGraph(graph))
+// function loopGraph (array){
+//     for (let i = 0; i < array.length; i++){
+//         let row = array[i]
+//         // console.log(row)
+//         for (let j = 0; j < row.length; j++){
+//             let column = row[j]
+//             console.log(column)
+//         }
+//     }
+// }
+// console.log(loopGraph(graph))
 // 1
 // 2
 // 3
