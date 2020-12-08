@@ -142,12 +142,25 @@
 // socialMedia.splice(-2, 2, 'pinterest') // [ 'facebook', 'tik tok', 'snapchat', 'instagram', 'tik tok', 'pinterest']
 // console.log(socialMedia)
 
+/* -------------------------------------------------------------------------- */
 
+// .sort() definition: The sort() method sorts the elements of an array in place and returns the sorted array.
 
+// // Ascending
+// let numbers = [4, 2, 5, 1, 3];
+// numbers.sort((a, b) => a - b);
+// console.log(numbers); // [ 1, 2, 3, 4, 5 ]
 
+// // Descending
+// numbers.sort((a, b) => b - a);
+// console.log(numbers); // [ 5, 4, 3, 2, 1 ]
 
+/* -------------------------------------------------------------------------- */
 
+// ... Spread syntax definition: spreading/expanding the elements in an array and objects 
 
+// let spreadArr = [1, 2, 3, 4, 5]
+// console.log(...spreadArr) // 1 2 3 4 5
 
 
 

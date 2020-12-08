@@ -1,4 +1,4 @@
-//  RECURSION definition: A process that calls itself/ A funciton that calls itself
+//  RECURSION definition: A funciton that calls itself/A process that calls itself
 
 // The call stack: when a function is invoked, it is placed on the top of a call stack
 // When JavaScript sees the 'return' keyword, or when the function ends, the compiler will remove the top item from the stack
@@ -27,9 +27,15 @@
 // }
 
 // console.log(countDown(5))
+// 5
+// 4
+// 3
+// 2
+// 1
+// All done!
 
 // RECURSIVE VERSION
-// function countDown(num){
+// function countDown1(num){
 //     // base case: checking to see if num is less than or equal to 0
 //     if(num <= 0) {
 //         // console.log('all return')
@@ -40,14 +46,23 @@
 //         // substracting 1 from num every iteration
 //         num--;
 //         // recursive call 
-//         countDown(num);
+//         countDown1(num);
 //     }
 //     return 'Done!'
 // }
-// console.log(countDown(3))
+// console.log(countDown1(5))
+// 5
+// 4
+// 3
+// 2
+// 1
+// Done!
 
 // First Iteration 
-
+// num = 5 
+// log: 5
+// num = 4
+// log: 4
 // num = 3
 // log: 3
 // num--
@@ -63,36 +78,35 @@
 
 
 // ITERATIVE VERSION
-// function sumOf (num){
-//     let total = 0;
-//     for (let i = num; i > 0; i--){
-//         total += i
-//     }
-//     return total
-// }
+function sumOf (num){
+    let total = 0;
+    for (let i = num; i > 0; i--){
+        console.log(total += i)
+    }
+    return total
+}
 
-// console.log(sumOf(10)) //55
+console.log(sumOf(10)) // 55
 
 // RECURSIVE VERSION
-// function sumRange(num){
-//     // Base case: when num hits 1, simply return 1
-//     if(num === 1) {
-//         return 1; 
-//     } else {
-//     // Recursive Case 
-//         return num + sumRange(num-1);
-//     }
-//  }
+function sumRange(num){
+    // Base case: when num hits 1, simply return 1
+    if(num === 1) {
+        return 1; 
+    } else {
+    // Recursive Case 
+        return num + sumRange(num-1);
+    }
+ }
 
-// console.log(sumRange(5)) //15
+console.log(sumRange(5)) //15
 
-
-// num + sumRange(num-1)
-//  5  +  sumRange(4)
-//  4  +  sumRange(3)
-//  3  +  sumRange(2) 
-//  2  +  sumRange(1) 
-//  1
+// Call Stack
+// 5: return 1 -> 1
+// 4: 2 + sumRange(1) 
+// 3: 3 + sumRange(2) 
+// 2: 4 + sumRange(3) 
+// 1: 5 + sumRange(4) 
 
 /* -------------------------------------------------------------------------- */
 
@@ -116,10 +130,11 @@
 //     }
 //     return result
 // }
-// console.log(flattenArray(array))
+// console.log(flattenArray(array)) // [ 1, 2, 5, 5, 6, 7, 5, 6, 9 ]
 
 
-// // RECURSIVE VERSION
+// let recursionArr = [1, 5, 6, [3, [5]]]
+// // // RECURSIVE VERSION
 // function flatten(arr){
 //     let result = []
 //     for(let i = 0; i < arr.length; i++){
@@ -133,7 +148,13 @@
 //      return result 
 // }
 
-// console.log(flatten([1, 5, 6, [3, [5]]])) // [ 1, 5, 6, 3, 5 ]
+// console.log(flatten(recursionArr)) // [ 1, 5, 6, 3, 5 ]
+
+// Call Stack 
+// 3: [5]
+// 2: [3, [5]]
+// 1: [1, 5, 6, [3, [5]]]
+
 
 //  result = [1, 5, 6] .concat ([3]) .concat([5]) 
 

@@ -107,28 +107,51 @@
 // console.log(lengthOfLanguages(chars)) // false
 
 /* -------------------------------------------------------------------------- */
+// .reduce() definition: takes in a accumulator and the current value/element - adds current value to the accumulator
 
-// PRACTICE PROBLEM
+// let array = [1, 2, 3, 4, 5]
 
-// create array of numbers
-// use HOF divide the element/currentValue with the index 
+// function reduced (arr){
+//    return arr.reduce((accumulator, currentValue) => accumulator + currentValue * 2, 0)
+// }
+// console.log(reduced(array)) // 15 
+
+// // console.log(0+2+4+6+8+10) //30 
+
+// function reduction (arr){
+//     return arr.reduce((accumulator, currentValue) => { return accumulator + currentValue * 2}, 0)
+// }
+// console.log(reduction(array)) // 15 
+
+
+// function reducing (arr){
+//    return arr.reduce((accumulator, currentValue) => { 
+//         return accumulator + currentValue * 2
+//         }, 0);
+// }
+// console.log(reducing(array))
+
+
+// function reduces (arr){
+//     return arr.reduce(
+//         ( accumulator, currentValue ) => accumulator + currentValue * 2,
+//         0
+//       )
+// }
+// console.log(reduces(array))
 
 /* -------------------------------------------------------------------------- */
 
-// PAIR PROGRAMMING PROBLEMS
+// PRACTICE PROBLEM
 
-// Removing Elements
-// https://www.codewars.com/kata/5769b3802ae6f8e4890009d2
+// Counting sheep
+// https://www.codewars.com/kata/54edbc7200b811e956000556
 
-// Lost Without a Map
-// https://www.codewars.com/kata/57f781872e3d8ca2a000007e
-
-
+// Count of positives 
+// https://www.codewars.com/kata/576bb71bbbcf0951d5000044
 
 
-
-
-
+/* -------------------------------------------------------------------------- */
 
 
 

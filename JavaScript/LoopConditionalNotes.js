@@ -36,19 +36,20 @@
 // console.log(addNums(array)) //45
 
 
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 // // add only the odd numbers in the array
 
-// function onlyAddOdds (oddArr){
-//     let total = 0
-//     for (let i = 0; i < oddArr.length; i++){
-//         if (oddArr[i] % 2 === 1){
-//             total += oddArr[i]
-//         }
-//     }
-//     return total
-// }
-// console.log(onlyAddOdds(array)) // 25
+function onlyAddOdds (oddArr){
+    let total = 0
+    for (let i = 0; i < oddArr.length; i++){
+        if (oddArr[i] % 2 === 1){
+            total += oddArr[i]
+        }
+    }
+    return total
+}
+console.log(onlyAddOdds(array)) // 25
 
 
 // // // count how many numbers are even in the array
@@ -65,7 +66,6 @@
 // }
 // console.log(onlyEvens(array)) // 4
 
-// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 // // // add the numbers that are NOT divisible by 3
 
