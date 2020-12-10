@@ -71,7 +71,7 @@
 
 // LOOPING THROUGH A STRING
 
-    let iterateString = 'nebula'        
+    // let iterateString = 'nebula'        
                     //   012345   
     // console.log(iterateString.length) // 6
 

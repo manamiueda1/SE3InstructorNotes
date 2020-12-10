@@ -78,86 +78,84 @@
 
 
 // ITERATIVE VERSION
-function sumOf (num){
-    let total = 0;
-    for (let i = num; i > 0; i--){
-        console.log(total += i)
-    }
-    return total
-}
+// function sumOf (num){
+//     let total = 0;
+//     for (let i = num; i > 0; i--){
+//         total += i
+//     }
+//     return total
+// }
 
-console.log(sumOf(10)) // 55
+// console.log(sumOf(10)) // 55
 
-// RECURSIVE VERSION
-function sumRange(num){
-    // Base case: when num hits 1, simply return 1
-    if(num === 1) {
-        return 1; 
-    } else {
-    // Recursive Case 
-        return num + sumRange(num-1);
-    }
- }
+// // RECURSIVE VERSION
+// function sumRange(num){
+//     // Base case: when num hits 1, simply return 1
+//     if(num === 1) {
+//         return 1; 
+//     } else {
+//     // Recursive Case 
+//         return num + sumRange(num-1);
+//     }
+//  }
 
-console.log(sumRange(5)) //15
+// console.log(sumRange(5)) //15
+
+// The stack queue is being unraveled 
 
 // Call Stack
 // 5: return 1 -> 1
-// 4: 2 + sumRange(1) 
-// 3: 3 + sumRange(2) 
-// 2: 4 + sumRange(3) 
-// 1: 5 + sumRange(4) 
+// 4: 2 + sumRange(1) 2 + 1 -> 3
+// 3: 3 + sumRange(2) 3 + 3 -> 6
+// 2: 4 + sumRange(3) 4 + 6 -> 10
+// 1: 5 + sumRange(4) 5 + 10 -> 15
 
 /* -------------------------------------------------------------------------- */
 
-// let array = [1, 2, 5, [], 5, 6, [7, 5, 6], 9]
+let array = [1, 2, 5, [], 5, 6, [7, 5, 6], 9]
 
 
 // // ITERATIVE VERSION
-// function flattenArray(arr){
-//     let result = []
+function flattenArray(arr){
+    let result = []
 
-//     for (let i = 0; i < arr.length; i++){
-//         let element = arr[i]
-//         if (Array.isArray(element)){
-//             for (let j = 0; j < element.length; j++){
-//                 result.push(element[j])
-//             }
-//         }
-//         else {
-//             result.push(element)
-//         }
-//     }
-//     return result
-// }
-// console.log(flattenArray(array)) // [ 1, 2, 5, 5, 6, 7, 5, 6, 9 ]
+    for (let i = 0; i < arr.length; i++){
+        let element = arr[i]
+        if (Array.isArray(element)){
+            for (let j = 0; j < element.length; j++){
+                result.push(element[j])
+            }
+        }
+        else {
+            result.push(element)
+        }
+    }
+    return result
+}
+console.log(flattenArray(array)) // [ 1, 2, 5, 5, 6, 7, 5, 6, 9 ]
 
 
-// let recursionArr = [1, 5, 6, [3, [5]]]
+let recursionArr = [1, 5, 6, [3, [5]]]
 // // // RECURSIVE VERSION
-// function flatten(arr){
-//     let result = []
-//     for(let i = 0; i < arr.length; i++){
-//         let element = arr[i]
-//         if(Array.isArray(element)){
-//             result = result.concat(flatten(element))
-//         } else {
-//             result.push(element)
-//         }
-//     }
-//      return result 
-// }
+function flatten(arr){
+    let result = []
+    for(let i = 0; i < arr.length; i++){
+        let element = arr[i]
+        if(Array.isArray(element)){
+            result = result.concat(flatten(element))
+        } else {
+            result.push(element)
+        }
+    }
+     return result 
+}
 
-// console.log(flatten(recursionArr)) // [ 1, 5, 6, 3, 5 ]
+console.log(flatten(recursionArr)) // [ 1, 5, 6, 3, 5 ]
 
 // Call Stack 
-// 3: [5]
-// 2: [3, [5]]
-// 1: [1, 5, 6, [3, [5]]]
-
-
-//  result = [1, 5, 6] .concat ([3]) .concat([5]) 
-
+// 3: [5] -> [5] -> result: [5]
+// 2: [3, [5]] -> [3].concat(flatten([5]))-> [3].concat([5]) -> result: [3, 5]
+// 1: [1, 5, 6, [3, [5]]] -> [1, 5, 6].concat(flatten([3, [5]])) -> [1, 5, 6].concat([3, 5]) -> [1, 5, 6, 3, 5]
 
 /* -------------------------------------------------------------------------- */
 
