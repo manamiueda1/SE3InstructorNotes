@@ -1,0 +1,16 @@
+h1 {
+  color: green;
+}
+
+.red-header {
+  color: rgb(219, 166, 218);
+}
+
+#purple-text {
+  color: greenyellow;
+  font-size: 30px;
+}
+
+.blue-header {
+  color: #37a149;
+}

@@ -18,11 +18,11 @@
 // https://www.codewars.com/kata/5583090cbe83f4fd8c000051
 
 // function digitize(n) {
-    // let stringn = String(n)
-    // let arrayNum = stringn.split('')
-    // let mapArray = arrayNum.map(Number)
-    // let final = mapArray.reverse()
-    // console.log(final)
+//     let stringn = String(n)
+//     let arrayNum = stringn.split('')
+//     let mapArray = arrayNum.map(Number)
+//     let final = mapArray.reverse()
+//     console.log(final)
     
 //     return String(n).split('').map(Number).reverse()
 // }
