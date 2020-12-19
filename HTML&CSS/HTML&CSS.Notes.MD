@@ -30,3 +30,5 @@ Class Atribute: The class attribute specifies one or more classnames for an elem
 
 Id Attribute: The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
 The id attribute is used to point to a specific style declaration in a style sheet.
+
+CSS Selectors: https://www.w3schools.com/cssref/css_selectors.asp

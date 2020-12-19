@@ -1,0 +1,25 @@
+h3 {
+  color: purple;
+  padding: 50px;
+  border-style: solid;
+  border-color: coral;
+  margin: 80px;
+}
+
+h2 {
+  color: yellowgreen;
+  padding: 50px;
+  border-style: solid;
+  border-color: coral;
+  margin: 80px;
+}
+
+p {
+  color: blanchedalmond;
+  padding: 50px;
+  border-style: solid;
+  border-color: coral;
+  margin: 80px;
+  font-size: 20px;
+  background-color: blueviolet;
+}

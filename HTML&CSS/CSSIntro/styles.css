@@ -1,0 +1,27 @@
+/* selecting all of the h1 elements */
+h1 {
+  color: navy;
+}
+/* selecting a specifitc id attribute */
+#lawngreen {
+  color: #7cfc00;
+}
+/* selecting a specific class attribute */
+.link {
+  color: palevioletred;
+}
+/* group elements together */
+.header1,
+.header2,
+.header3 {
+  color: indianred;
+}
+
+/* targets all instances of p tag inside the main-container id */
+#main-container p {
+  color: indigo;
+}
+/* select all elements */
+* {
+  font-family: monospace;
+}
