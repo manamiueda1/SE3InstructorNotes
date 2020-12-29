@@ -80,13 +80,4 @@
 
 /* -------------------------------------------------------------------------- */
 
-// PAIR PROGRAMMING PRACTICE PROBLEMS 
-
-// Problem #6
-// Find the difference in age 
-// https://www.codewars.com/kata/5720a1cb65a504fdff0003e2
-
-// Problem #7
-// Row Weights
-// https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9
 

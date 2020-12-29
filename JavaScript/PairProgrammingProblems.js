@@ -1,5 +1,26 @@
 // Pair Programming Problems
 
+// Problem #6
+// Find the difference in age 
+// https://www.codewars.com/kata/5720a1cb65a504fdff0003e2
+
+// Problem #7
+// Row Weights
+// https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9
+
+// Counting sheep
+// https://www.codewars.com/kata/54edbc7200b811e956000556
+
+// Count of positives 
+// https://www.codewars.com/kata/576bb71bbbcf0951d5000044
+
+// Sum of a sequence
+// https://www.codewars.com/kata/586f6741c66d18c22800010a
+
+// Sum of a nested list
+// https://www.codewars.com/kata/5a15a4db06d5b6d33c000018
+
+
 // 12.28.20
 
 // Expressions matter

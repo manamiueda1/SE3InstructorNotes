@@ -159,10 +159,4 @@ console.log(flatten(recursionArr)) // [ 1, 5, 6, 3, 5 ]
 
 /* -------------------------------------------------------------------------- */
 
-// PRACTICE PROBLEMS
 
-// Sum of a sequence
-// https://www.codewars.com/kata/586f6741c66d18c22800010a
-
-// Sum of a nested list
-// https://www.codewars.com/kata/5a15a4db06d5b6d33c000018

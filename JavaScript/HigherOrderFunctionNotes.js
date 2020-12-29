@@ -142,16 +142,7 @@
 
 /* -------------------------------------------------------------------------- */
 
-// PRACTICE PROBLEM
 
-// Counting sheep
-// https://www.codewars.com/kata/54edbc7200b811e956000556
-
-// Count of positives 
-// https://www.codewars.com/kata/576bb71bbbcf0951d5000044
-
-
-/* -------------------------------------------------------------------------- */
 
 
 
