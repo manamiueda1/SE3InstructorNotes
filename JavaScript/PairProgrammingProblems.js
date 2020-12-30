@@ -20,6 +20,7 @@
 // Sum of a nested list
 // https://www.codewars.com/kata/5a15a4db06d5b6d33c000018
 
+/* -------------------------------------------------------------------------- */
 
 // 12.28.20
 
@@ -28,3 +29,14 @@
 
 // Squash the bugs
 // https://www.codewars.com/kata/56f173a35b91399a05000cb7/train/javascript
+
+/* -------------------------------------------------------------------------- */
+
+// 12.30.20
+
+// Transportation on Vacation
+// https://www.codewars.com/kata/568d0dd208ee69389d000016
+
+// Count Sheep
+// https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript
+
