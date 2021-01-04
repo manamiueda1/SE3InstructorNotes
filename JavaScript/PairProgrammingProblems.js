@@ -40,3 +40,12 @@
 // Count Sheep
 // https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript
 
+/* -------------------------------------------------------------------------- */
+
+// 01.09.20
+
+// Triple Trouble:
+// https://www.codewars.com/kata/5704aea738428f4d30000914
+
+// Alternating case:
+// https://www.codewars.com/kata/56efc695740d30f963000557
