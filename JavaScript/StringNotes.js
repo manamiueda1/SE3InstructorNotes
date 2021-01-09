@@ -282,7 +282,7 @@ console.log(socialMedia.includes('z')) // false
 // console.log(school.substr(0, 6)) // nebula
 // console.log(school.substr(7, 7)) // academy
 // console.log(school.substr(15, 9)) // wednesday
-// console.log(typeof school.substr(25, 5), 'typeof class') // class
+// console.log(typeof school.substr(25, 5), 'typeof class') // string
 
 /* -------------------------------------------------------------------------- */
 
