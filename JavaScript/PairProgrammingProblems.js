@@ -42,10 +42,23 @@
 
 /* -------------------------------------------------------------------------- */
 
-// 01.09.20
+// 01.09.21
 
 // Triple Trouble:
 // https://www.codewars.com/kata/5704aea738428f4d30000914
 
 // Alternating case:
 // https://www.codewars.com/kata/56efc695740d30f963000557
+
+/* -------------------------------------------------------------------------- */
+
+// 01.11.21
+
+// Find the calculation type
+// https://www.codewars.com/kata/5aca48db188ab3558e0030fa
+
+// JavaScript Array Filter
+// https://www.codewars.com/kata/514a6336889283a3d2000001
+
+// Rotate to the max
+// https://www.codewars.com/kata/579fa665bb9944f9340005d2
