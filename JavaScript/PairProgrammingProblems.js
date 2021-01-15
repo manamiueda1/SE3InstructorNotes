@@ -63,3 +63,12 @@
 // Rotate to the max
 // https://www.codewars.com/kata/579fa665bb9944f9340005d2
 
+/* -------------------------------------------------------------------------- */
+
+// 01.16.21
+
+// FizzBuzz
+// https://www.codewars.com/kata/5300901726d12b80e8000498
+
+// Growth of Population
+// https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/javascript

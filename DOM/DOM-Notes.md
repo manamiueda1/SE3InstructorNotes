@@ -26,10 +26,12 @@ innerHTML -> text in between the tag
 
 setAttribute() -> adding an attribute to an element
 
-sppendChild() -> add child element to an existing element
+appendChild() -> add child element to an existing element
 
 addEventListener(type, listener) -> type: event type listener: funciton what do you want it to do on the event type?
 
-classList
+firstChildElement() -> target the first child
 
-how to show the DOM in object form
+ParentNode.children -> list of children nodes of the parent node
+
+classList -> add a class name to the element
