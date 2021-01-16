@@ -73,5 +73,11 @@
 // Growth of Population
 // https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/javascript
 
-// Find Your Cillain Name
+/* -------------------------------------------------------------------------- */
+// 01.30.21
+
+// Find Your Villain Name
 // https://www.codewars.com/kata/536c00e21da4dc0a0700128b/train/javascript
+
+// LargestElements
+// https://www.codewars.com/kata/53d32bea2f2a21f666000256
