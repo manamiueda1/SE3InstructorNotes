@@ -83,12 +83,12 @@
 // https://www.codewars.com/kata/53d32bea2f2a21f666000256
 
 /* -------------------------------------------------------------------------- */
-// 01.25.21
+// 01.30.21
 
 // simple letter removal 
 // https://www.codewars.com/kata/5b728f801db5cec7320000c7
 
-// Stones on the Table
-// https://www.codewars.com/kata/5f70e4cce10f9e0001c8995a
+// Unique string characters
+// https://www.codewars.com/kata/5a262cfb8f27f217f700000b
 
 

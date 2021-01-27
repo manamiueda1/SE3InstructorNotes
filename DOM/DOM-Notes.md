@@ -35,3 +35,5 @@ firstChildElement() -> target the first child
 ParentNode.children -> list of children nodes of the parent node
 
 classList -> add a class name to the element
+
+deletingChild.parentNode.removeChild(deletingChild) -> to remove a child node/element
