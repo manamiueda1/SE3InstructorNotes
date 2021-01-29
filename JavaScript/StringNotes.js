@@ -1,7 +1,7 @@
 // STRING NOTES
 
 // String Definition: a set of characters that is used to represent text and is surrouded by quotes or backticks, '', "", ``
-// String is a primitive data type - they're immutable/cannot be changed 
+// String is a primitive data type - they're immutable/cannot be changed
 
 // single quote: ''
 // double quote: ""
@@ -68,7 +68,7 @@ console.log(
 // jasmine is a nebula student
 
 // NON-DYNAMIC
-// This solution only works with one variable 
+// This solution only works with one variable
 // let notDynamic = "anitria";
 
 // console.log(notDynamic + " is a nebula student"); //anitria is a nebula student
@@ -96,7 +96,7 @@ console.log(
 /* -------------------------------------------------------------------------- */
 
 // ACCESSING INDICES USING BRACKET NOTATION: str[i]
-// Will return a character based on the given index. 
+// Will return a character based on the given index.
 // Note: if the index is larger than the last character index then we return an empty string: ''
 
 // let school = "nebula";
@@ -115,7 +115,6 @@ console.log(
 // // school at index 5 evaluates to 'a'
 // console.log(school[5]);
 
-
 // EX: log your initials using template literal and '+'
 
 // let myName = "Manami Ueda";
@@ -123,7 +122,7 @@ console.log(
 // console.log(myName[7]); //U
 // console.log(`${myName[0]}${myName[7]}`); // MU
 
-// let firstLetter = myName[0]; 
+// let firstLetter = myName[0];
 // let secondLetter = myName[7];
 // console.log(firstLetter + secondLetter); //MU
 
@@ -145,8 +144,7 @@ console.log(
 // let nebula = "nebula academy";
 // console.log(nebula.length); //14
 
-
-// //Spaces are indexes as well 
+// //Spaces are indexes as well
 
 // let jasmine = "J D";
 
@@ -206,32 +204,32 @@ console.log(
 // console.log(replaceChar.replace("some", "sum")); // We are replacing sum characters. Also the capitol A.
 // console.log(replaceChar.replace('a', '-')) // We -re replacing some characters. Also the capitol A.
 
-// // replacing ALL a's 
+// // replacing ALL a's
 
 // // g stands for global - to replace all a's in the string
 // console.log(replaceChar.replace(/a/g, "-")); // We -re repl-cing some ch-r-cters. Also the c-pitol A.
-// // i stands for case insensitive - to replace the first a, whether it's lowercase a or uppercase A. 
+// // i stands for case insensitive - to replace the first a, whether it's lowercase a or uppercase A.
 // console.log(replaceChar.replace(/a/i, "-")) //We -re replacing some characters. Also the capitol A.
-// // adding g and i makes it glbal and case insensitive 
+// // adding g and i makes it glbal and case insensitive
 // console.log(replaceChar.replace(/a/gi, "-")); // We -re repl-cing some ch-r-cters. -lso the c-pitol -.
 
 /* -------------------------------------------------------------------------- */
 
 // .indexOf(searchValue) definition: returns the index of the value you pass into the method
 
-let school = 'welcome to nebula academy'
-console.log(school.indexOf('l')) //2
-console.log(school.indexOf('z')) // -1
-console.log(school.indexOf('j')) // -1
-console.log(school.indexOf('nebula')) //11
+let school = "welcome to nebula academy";
+console.log(school.indexOf("l")); //2
+console.log(school.indexOf("z")); // -1
+console.log(school.indexOf("j")); // -1
+console.log(school.indexOf("nebula")); //11
 
 /* -------------------------------------------------------------------------- */
 
 // .includes(searchString) definition: determines whether one string may be found within another string, returning true or false as appropriate.
 
-let socialMedia = 'Hello, welcome to facebook'
-console.log(socialMedia.includes('l')) // true
-console.log(socialMedia.includes('z')) // false
+let socialMedia = "Hello, welcome to facebook";
+console.log(socialMedia.includes("l")); // true
+console.log(socialMedia.includes("z")); // false
 
 /* -------------------------------------------------------------------------- */
 
@@ -243,7 +241,6 @@ console.log(socialMedia.includes('z')) // false
 
 // let fruits = 'apple banana orange grapefruit grape'
 // console.log(fruits.split(' ')) // [ 'apple', 'banana', 'orange', 'grapefruit', 'grape' ]
-
 
 // //  How to split and log the initials of your name
 // let name = 'manami ueda'
@@ -266,17 +263,17 @@ console.log(socialMedia.includes('z')) // false
 // let js = loveJavaScript.slice(0, 10)
 // console.log(js) // javascript
 // console.log(`${js} makes me smart`) //javascript makes me smart
-// console.log(loveJavaScript.slice(0, -6)) // javascript makes me 
+// console.log(loveJavaScript.slice(0, -6)) // javascript makes me
 // console.log(loveJavaScript.slice(11,16)) // makes
 
 // // Creates a shallow copy of the array
-// console.log(loveJavaScript) //javascript makes me happy.  
+// console.log(loveJavaScript) //javascript makes me happy.
 
 /* -------------------------------------------------------------------------- */
 
 // .substr(startingIndex, characterCount) definition:returns a portion of the string, starting at the specified index and extending for a given number of characters afterwards.
 
-// parameters: specify the starting index, specify the character count from the starting index 
+// parameters: specify the starting index, specify the character count from the starting index
 
 // let school = 'nebula academy wednesday class'
 // console.log(school.substr(0, 6)) // nebula
@@ -286,14 +283,15 @@ console.log(socialMedia.includes('z')) // false
 
 /* -------------------------------------------------------------------------- */
 
-// Number(string number) definition: trurns string of number in number 
+// Number(string number) definition: trurns string of number in number
 
 // console.log(Number('10')) //10
 // console.log(typeof '10') //string
 // console.log(typeof Number('10')) //number
 
+/* -------------------------------------------------------------------------- */
 
+// .match() retrieves the result of matching a string against a regular expression.
 
-
-
-
+// const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
+// const found = paragraph.match(/[A-Z]/g);
