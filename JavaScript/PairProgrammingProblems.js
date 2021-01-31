@@ -1,7 +1,7 @@
 // Pair Programming Problems
 
 // Problem #6
-// Find the difference in age 
+// Find the difference in age
 // https://www.codewars.com/kata/5720a1cb65a504fdff0003e2
 
 // Problem #7
@@ -11,7 +11,7 @@
 // Counting sheep
 // https://www.codewars.com/kata/54edbc7200b811e956000556
 
-// Count of positives 
+// Count of positives
 // https://www.codewars.com/kata/576bb71bbbcf0951d5000044
 
 // Sum of a sequence
@@ -83,12 +83,9 @@
 // https://www.codewars.com/kata/53d32bea2f2a21f666000256
 
 /* -------------------------------------------------------------------------- */
-// 01.30.21
 
-// simple letter removal 
+// simple letter removal
 // https://www.codewars.com/kata/5b728f801db5cec7320000c7
 
 // Unique string characters
 // https://www.codewars.com/kata/5a262cfb8f27f217f700000b
-
-
