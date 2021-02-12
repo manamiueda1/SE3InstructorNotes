@@ -12,8 +12,8 @@ webpack -> module bundler. Takes all the JavaScrict files and bundle everything 
 
 package.json -> package manager. we can install other React Components into package.json.
 
-importing React -> allows us to write JSX: html like syntax
+importing React in js file-> allows us to write JSX: html like syntax
 
-Importing REactDOM -> Allows React to interact with the DOM. It connects App component with he DOM (html file)
+Importing ReactDOM in js file -> Allows React to interact with the DOM. It connects App component with he DOM (html file)
 
-What are node modules
+What are node modules -> where npm modules are saved. If you open node_modules , you should see a folder named react , which contains the code that makes React run.
