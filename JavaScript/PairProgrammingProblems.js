@@ -74,7 +74,7 @@
 // https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/javascript
 
 /* -------------------------------------------------------------------------- */
-// 01.30.21
+// 02.13.21
 
 // Find Your Villain Name
 // https://www.codewars.com/kata/536c00e21da4dc0a0700128b/train/javascript
@@ -83,7 +83,6 @@
 // https://www.codewars.com/kata/53d32bea2f2a21f666000256
 
 /* -------------------------------------------------------------------------- */
-// 02.13.21
 
 // simple letter removal
 // https://www.codewars.com/kata/5b728f801db5cec7320000c7
