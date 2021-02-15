@@ -21,7 +21,7 @@ Every time a 'client' requested a new page (ex: form, click on something with ne
 
 SPA -> single page application: only load application code once. Instead of making new requests to the server/returning new documents everytime, we stay on the same page every time and JS file updates the DOM per page instead of speaking to the server everytime
 
-The DOM is manipulated manually by using DOM methods and properties like .getElementByI(), .appendChild() etc. This is called 'imperative paradigm' - you directly change individual parts of your app in response to user events. As applications become larger, this way of programming causes performance bottleneck. It takes a long time for DOM changes to happen.
+The DOM is manipulated manually by using DOM methods and properties like .getElementById(), .appendChild() etc. This is called 'imperative paradigm' - you directly change individual parts of your app in response to user events. As applications become larger, this way of programming causes performance bottleneck. It takes a long time for DOM changes to happen.
 
 React takes a declaritive approach. Tell React what the page should look like and give it the data it needs and it will take care of it. With React, developers do not need to touch the DOM.
 Based on the data given, React will update the application. React takes the 'Don't touch the DOM - I'll do it.' approach.
@@ -33,7 +33,6 @@ Components -> are JavaScript functions that receives input/attributes/props, in 
 Reusable components -> build small components that form bigger components. These components contain other components. You can reuse and copy over components.
 
 JSX -> HTML like syntax inside the JS file
-Library vs Framework
 
 VirtualDOM -> JavaScript Version of the DOM. It gives React a blueprint of how it should update the actual DOM
 
