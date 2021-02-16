@@ -14,7 +14,7 @@ package.json -> package manager. we can install other React Components into pack
 
 importing React in js file-> allows us to write JSX: html like syntax
 
-Importing ReactDOM in js file -> Allows React to interact with the DOM. It connects App component with he DOM (html file)
+Importing ReactDOM in js file -> Allows React to interact with the DOM. It connects App component with the DOM (html file)
 
 What are node modules -> where npm modules are saved. If you open node_modules , you should see a folder named react , which contains the code that makes React run.
 
