@@ -91,3 +91,13 @@
 
 // Unique string characters
 // https://www.codewars.com/kata/5a262cfb8f27f217f700000b
+
+/* -------------------------------------------------------------------------- */
+
+// 02.27.21
+
+// Highest and lowest
+// https://www.codewars.com/kata/554b4ac871d6813a03000035
+
+// Longest vowel chain:
+// https://www.codewars.com/kata/59c5f4e9d751df43cf000035/train/javascript
