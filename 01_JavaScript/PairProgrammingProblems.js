@@ -101,3 +101,13 @@
 
 // Longest vowel chain:
 // https://www.codewars.com/kata/59c5f4e9d751df43cf000035/train/javascript
+
+/* -------------------------------------------------------------------------- */
+
+// 03.06.21
+
+//  Separate basic types
+// https://www.codewars.com/kata/60113ded99cef9000e309be3
+
+// Sort by Last Char
+// https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0/train/javascript
