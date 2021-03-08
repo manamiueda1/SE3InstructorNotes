@@ -111,3 +111,13 @@
 
 // Sort by Last Char
 // https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0/train/javascript
+
+/* -------------------------------------------------------------------------- */
+
+// 03.13.21
+
+// How many are smaller than me
+// https://www.codewars.com/kata/56a1c074f87bc2201200002e/train/javascript
+
+// Divisible by previous digit
+// https://www.codewars.com/kata/5a2809dbe1ce0e07f800004d
